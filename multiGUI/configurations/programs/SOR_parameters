@@ -1,0 +1,8 @@
+/* QS Configuration file */
+name	type	value	default-value	desc			group	small-desc
+#-p  	#int	#1	#1		#parameter -p: <br/>type: int <br /> default value: 1<br /><br />Number of processors		#null	#Number of processors
+#-m 	#int	#100	#100		#parameter -m: <br/>type: int <br /> default value: 100<br /><br />Number of Rows		#null	#Number of Rows
+#-n 	#int	#50	#50		#parameter -n: <br/>type: int <br /> default value: 50<br /><br />Number of columns by 2	#null	#Number of columns by 2
+#-i 	#int	#2	#2		#parameter -i: <br/>type: int <br /> default value: 2<br /><br />Number of Iterations		#null	#Number of Iterations
+#-d 	#bool	#false	#false		#parameter -d: <br/>type: bool <br /> default value: false<br /><br />Display i/o matrices	#null	#Display i/o matrices
+#-h	#bool	#false	#false		#parameter -h: <br/>type: bool <br /> default value: false<br /><br />Help			#null	#Help

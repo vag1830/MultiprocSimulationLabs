@@ -1,0 +1,9 @@
+/* QS Configuration file */
+name	type	value	default-value	desc			group	small-desc
+#-p  	#int	#1	#1		#parameter -p: <br/>type: int <br /> default value: 1<br /><br />Number of processors	#null	#Number of processors
+#-s 	#int	#4096	#4096		#parameter -s: <br/>type: int <br /> default value: 4096<br /><br />Size of array		#null	#Size of array
+#-b 	#int	#64	#64		#parameter -b: <br/>type: int <br /> default value: 64<br /><br />Bubble threshold		#null	#Bubble threshold
+#-B 	#bool	#true	#true		#parameter -B: <br/>type: bool <br /> default value: true<br /><br />Bubble			#null	#Bubble
+#-d 	#bool	#false	#false		#parameter -d: <br/>type: bool <br /> default value: false<br /><br />Display output		#null	#Display output
+#-v	#bool	#true	#true		#parameter -v: <br/>type: bool <br /> default value: true<br /><br />Verify results		#null	#Verify results
+#-H 	#bool	#false	#false		#parameter -H: <br/>type: bool <br /> default value: false<br /><br />Help			#null	#Help

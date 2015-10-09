@@ -1,0 +1,74 @@
+/* QS Configuration file */
+name	type	value	default-value	desc			group
+#numnodes	#int	#16	#16		#The number given to this parameter specifies the number of nodes in the system. Defaults to 16.	#Over all system parameters.
+#reqsz		#int	#16	#16		#This parameter gives the length of the control header for each packet, ib bytes. The control header includes the requested address, the source node, the destination node, and the command type for the packet. Defaults to 16.	#Over all system parameters.
+#bpbtype	#string	#2bit	#2bit		#null			#null
+#bpbsize	#int	#512	#512		#null			#null
+#shadowmappers	#int	#8	#8		#null			#null
+#rassize	#int	#4	#4		#null			#null
+#numalus	#int	#2	#2		#null			#null
+#numfpus	#int	#2	#2		#null			#null
+#numaddrs	#int	#2	#2		#null			#null
+#regwindows	#int	#8	#8		#null			#null
+#latint		#int	#1	#1		#null			#null
+#repint		#int	#1	#1		#null			#null
+#latmul		#int	#3	#3		#null			#null
+#repmul		#int	#1	#1		#null			#null
+#latdiv		#int	#9	#9		#null			#null
+#repdiv		#int	#1	#1		#null			#null
+#latshift	#int	#1	#1		#null			#null
+#repshift	#int	#1	#1		#null			#null
+#latflt		#int	#3	#3		#null			#null
+#repflt		#int	#1	#1		#null			#null
+#latfmov	#int	#1	#1		#null			#null
+#repfmov	#int	#1	#1		#null			#null
+#latfconv	#int	#4	#4		#null			#null
+#repfconv	#int	#2	#2		#null			#null
+#latfdiv	#int	#10	#10		#null			#null
+#repfdiv	#int	#6	#6		#null			#null
+#latfsqrt	#int	#10	#10		#null			#null
+#repfsqrt	#int	#6	#6		#null			#null
+#maxstack	#int	#1024	#1024		#null			#null
+#l1type		#string	#WT	#WT		#null			#null
+#linesize	#int	#64	#64		#null			#null
+#l1size		#int	#16	#16		#null			#null
+#l1assoc	#int	#1	#1		#null			#null
+#l1ports	#int	#2	#2		#null			#null
+#l1taglatency	#int	#1	#1		#null			#null
+#l2size		#int	#64	#64		#null			#null
+#l2assoc	#int	#4	#4		#null			#null
+#l2taglatency	#int	#3	#3		#null			#null
+#l2datalatency	#int	#5	#5		#null			#null
+#wrbbufextra	#int	#0	#0		#null			#null
+#ccprot		#string	#mesi	#mesi		#null			#null
+#wbufsize	#int	#8	#8		#null			#null
+#mshrcoal	#int	#16	#16		#null			#null
+#buswidth	#int	#32	#32		#null			#null
+#buscycle	#int	#3	#3		#null			#null
+#busarbdelay	#int	#1	#1		#null			#null
+#memorylatency	#int	#18	#18		#null			#null
+#dircycle	#int	#3	#3		#null			#null
+#meminterleaving#int	#4	#4		#null			#null
+#dirbufsize	#int	#64	#64		#null			#null
+#dirpacketcreate#int	#12	#12		#null			#null
+#dirpacketcreateaddtl	#int	#6	#6	#null			#null
+#flitsize	#int	#8	#8		#null			#null
+#flitdelay	#int	#4	#4		#null			#null
+#arbdelay	#int	#4	#4		#null			#null
+#pipelinedsw	#int	#2	#2		#null			#null
+#netbufsize	#int	#64	#64		#null			#null
+#netportsize	#int	#64	#64		#null			#null
+#portszl1wbreq	#int	#2	#2		#null			#null
+#portszwbl1rep	#int	#1	#1		#null			#null
+#portszwbl2req	#int	#1	#1		#null			#null
+#portszl2wbrep	#int	#1	#1		#null			#null
+#portszl1l2req	#int	#2	#2		#null			#null
+#portszl2l1rep	#int	#1	#1		#null			#null
+#portszl2l1cohe	#int	#1	#1		#null			#null
+#portszl1l2cr	#int	#1	#1		#null			#null
+#portszl2busreq	#int	#8	#8		#null			#null
+#portszbusl2rep	#int	#2	#2		#null			#null
+#portszbusl2cohe#int	#2	#2		#null			#null
+#portszl2buscr	#int	#8	#8		#null			#null
+#portszbusother	#int	#16	#16		#null			#null
+#portszdir	#int	#64	#64		#null			#null

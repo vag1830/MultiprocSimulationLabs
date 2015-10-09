@@ -1,0 +1,2 @@
+sim-cheetah: This program implements a functional simulator driver for Cheetah.  
+Cheetah is a cache simulation package written by Rabin Sugumar and Santosh Abraham which can efficiently simulate multiple cache configurations in a single run of a program.  Specifically, Cheetah can simulate ranges of single level set-associative and fully-associative caches.  See the directory libcheetah/ for more details on Cheetah.

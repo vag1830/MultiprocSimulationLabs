@@ -1,0 +1,2 @@
+sim-safe: This simulator implements a functional simulator.
+This functional simulator is the simplest, most user-friendly simulator in the simplescalar tool set. Unlike sim-fast, this functional simulator checks for all instruction errors, and the implementation is crafted for clarity rather than speed.

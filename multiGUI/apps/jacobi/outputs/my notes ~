@@ -1,0 +1,4 @@
+no documentation whatsoever for this file
+this only runs with numnodes 16
+notice there is no STOPCONFIG 1 at the end of the configuration file
+i tried with l1 = 32, l2 = 128 works  fine.

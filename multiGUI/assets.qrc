@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logos/digiGr.jpg</file>
+        <file>logos/espa.jpg</file>
+        <file>logos/eu.jpg</file>
+    </qresource>
+</RCC>

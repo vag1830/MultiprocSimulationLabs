@@ -1,0 +1,2 @@
+#! /bin/bash
+exec ../../../obj/x86/rsim -f jacobi_rc -S jacobi_rc -D../outputs -0 /dev/null -z rsim.config -- $@

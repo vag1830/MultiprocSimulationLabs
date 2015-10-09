@@ -1,0 +1,1 @@
+../../../obj/x86/rsim -f mularray_rc -S mularray_rc -D../outputs -0 /dev/null -z input_up -- $@

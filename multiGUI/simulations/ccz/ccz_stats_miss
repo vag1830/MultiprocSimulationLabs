@@ -1,0 +1,30 @@
+Phase 0 STATS
+FILE ../multiGUI/simulations/ccz/ccz
+Misses: 0
+Average L1 MSHR = 1
+Average L2 MSHR = 1.000
+Average network read latency = 31.000 (over 1 )
+Phase 1 STATS
+FILE ../multiGUI/simulations/ccz/ccz
+Misses: 342
+Miss latency: 35.33
+Overlapped miss latency: 10.51
+Fraction unoverlapped: 68.31\%
+Refs: 441932
+L1refs: 441932
+L2refs: 342
+L1hits: 99.91 (441545)
+L1misses: 0.08 (342)
+L2hits: 23.68 (81)
+L2misses: 76.32 (261)
+Local mems: 100.00 (261)
+Remote mems: 0.00 (0)
+Average L1 MSHR = 1
+Average L2 MSHR = 1.000
+Average network read latency = 31.000 (over 1 )
+Phase 2 STATS
+FILE ../multiGUI/simulations/ccz/ccz
+Misses: 0
+Average L1 MSHR = 1
+Average L2 MSHR = 1.000
+Average network read latency = 31.000 (over 1 )

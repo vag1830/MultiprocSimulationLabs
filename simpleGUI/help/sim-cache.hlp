@@ -1,0 +1,2 @@
+sim-cache: This simulator implements a functional cache simulator.  
+Cache statistics are generated for a user-selected cache and TLB configuration, which may include up to two levels of instruction and data cache (with any levels unified), and one level of instruction and data TLBs.  No timing information is generated.
