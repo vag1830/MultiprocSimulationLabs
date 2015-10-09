@@ -1,0 +1,55 @@
+Phase 1 STATS
+FILE qs-p1-s8192-def_conf_err
+Total elapsed time of simulation 23.000000
+Simulated time 5029765.500000
+
+Exec time IPC	Busy	Acq	Rel	Read	Write	RMW	Spin	Barrier
+4.52e+06  1.040	36.95	0.16	0.13	14.71	48.06	0.00	0.00	0.00
+
+USER:	1	2	3	4	5	6	7	8	9
+USER:	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+	Read L1 =	14.15	Write L1 =	0.04	RMW L1 =	0.00
+	Read L2 =	0.13	Write L2 =	48.02	RMW L2 =	0.00
+	Read local =	0.43	Write local =	0.00	RMW remote =	0.00
+	Read remote =	0.00	Write remote =	0.00	RMW remote =	0.00
+
+LAT   :	RD	WT	RMW
+Addr  :	2.05	11.20	10.07
+
+Issue :	1.03	10.00	10.07
+
+Active:	23.02	57.86	31.36
+
+BUSY=13.62	ALU=11.28	FPU=0.00	BRU=12.05
+READ MISS=0.55	WRITE MISS=48.02	RMW MISS=0.00
+Avail=0.595	Eff=3.116	Util=0.561
+
+----------------------------------------------------------------
+FILE qs-p4-s8192-def_conf_err
+Total elapsed time of simulation 32.000000
+Simulated time 2137471.500000
+
+Exec time IPC	Busy	Acq	Rel	Read	Write	RMW	Spin	Barrier
+1.61e+06  0.849	25.87	3.59	0.51	19.50	43.97	0.00	6.49	0.00
+
+USER:	1	2	3	4	5	6	7	8	9
+USER:	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+	Read L1 =	9.92	Write L1 =	0.03	RMW L1 =	0.00
+	Read L2 =	0.10	Write L2 =	33.19	RMW L2 =	0.00
+	Read local =	0.08	Write local =	0.01	RMW remote =	0.00
+	Read remote =	9.40	Write remote =	10.74	RMW remote =	0.00
+
+LAT   :	RD	WT	RMW
+Addr  :	4.91	15.81	157.91
+
+Issue :	1.66	13.32	157.61
+
+Active:	30.51	74.21	213.87
+
+BUSY=9.58	ALU=7.93	FPU=0.00	BRU=8.37
+READ MISS=9.58	WRITE MISS=43.94	RMW MISS=0.00
+Avail=0.542	Eff=2.635	Util=0.595
+
+----------------------------------------------------------------

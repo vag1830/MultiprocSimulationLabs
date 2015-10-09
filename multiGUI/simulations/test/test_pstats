@@ -1,0 +1,84 @@
+Phase 0 STATS
+FILE ../multiGUI/simulations/test/test_err
+Total elapsed time of simulation 274.000000
+Simulated time 16944772.500000
+
+Exec time IPC	Busy	Acq	Rel	Read	Write	RMW	Spin	Barrier
+3.44e+06  1.423	69.09	0.00	0.00	17.37	13.54	0.00	0.00	0.00
+
+USER:	1	2	3	4	5	6	7	8	9
+USER:	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+	Read L1 =	17.37	Write L1 =	13.54	RMW L1 =	0.00
+	Read L2 =	0.00	Write L2 =	0.00	RMW L2 =	0.00
+	Read local =	0.00	Write local =	0.00	RMW remote =	0.00
+	Read remote =	0.00	Write remote =	0.00	RMW remote =	0.00
+
+LAT   :	RD	WT	RMW
+Addr  :	0.00	0.00	0.00
+
+Issue :	0.00	0.00	0.00
+
+Active:	0.00	0.00	0.00
+
+BUSY=15.43	ALU=44.07	FPU=0.00	BRU=9.59
+READ MISS=0.00	WRITE MISS=0.00	RMW MISS=0.00
+Avail=0.428	Eff=3.506	Util=0.948
+
+----------------------------------------------------------------
+Phase 1 STATS
+FILE ../multiGUI/simulations/test/test_err
+Total elapsed time of simulation 274.000000
+Simulated time 16944772.500000
+
+Exec time IPC	Busy	Acq	Rel	Read	Write	RMW	Spin	Barrier
+1.32e+07  0.469	6.76	60.98	2.37	6.50	12.43	0.00	10.87	0.00
+
+USER:	1	2	3	4	5	6	7	8	9
+USER:	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+	Read L1 =	2.55	Write L1 =	0.01	RMW L1 =	0.00
+	Read L2 =	0.03	Write L2 =	8.44	RMW L2 =	0.00
+	Read local =	0.03	Write local =	0.00	RMW remote =	0.00
+	Read remote =	3.88	Write remote =	3.98	RMW remote =	0.00
+
+LAT   :	RD	WT	RMW
+Addr  :	37.20	21.13	1510.76
+
+Issue :	4.99	17.76	1502.16
+
+Active:	56.51	83.20	1529.50
+
+BUSY=2.43	ALU=2.15	FPU=0.00	BRU=2.17
+READ MISS=3.95	WRITE MISS=12.42	RMW MISS=0.00
+Avail=0.847	Eff=0.741	Util=0.747
+
+----------------------------------------------------------------
+Phase 2 STATS
+FILE ../multiGUI/simulations/test/test_err
+Total elapsed time of simulation 274.000000
+Simulated time 16944772.500000
+
+Exec time IPC	Busy	Acq	Rel	Read	Write	RMW	Spin	Barrier
+3.28e+05  2.001	80.05	0.00	0.00	19.99	0.01	0.00	0.00	0.00
+
+USER:	1	2	3	4	5	6	7	8	9
+USER:	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+	Read L1 =	19.99	Write L1 =	0.01	RMW L1 =	0.00
+	Read L2 =	0.00	Write L2 =	0.00	RMW L2 =	0.00
+	Read local =	0.00	Write local =	0.00	RMW remote =	0.00
+	Read remote =	0.00	Write remote =	0.00	RMW remote =	0.00
+
+LAT   :	RD	WT	RMW
+Addr  :	0.00	0.00	0.00
+
+Issue :	0.00	0.00	0.00
+
+Active:	0.00	0.00	0.00
+
+BUSY=40.00	ALU=20.02	FPU=0.00	BRU=20.02
+READ MISS=0.00	WRITE MISS=0.00	RMW MISS=0.00
+Avail=1.000	Eff=2.002	Util=0.999
+
+----------------------------------------------------------------

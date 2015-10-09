@@ -1,0 +1,2 @@
+sim-outorder: This simulator implements a very detailed out-of-order issue superscalar processor with a two-level memory system and speculative execution support.  
+This simulator is a performance simulator, tracking the latency of all pipeline operations.

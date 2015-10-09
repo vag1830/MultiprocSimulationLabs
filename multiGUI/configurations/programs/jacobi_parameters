@@ -1,0 +1,7 @@
+/* jacobi Configuration file */
+name	type	value	default-value	desc			group
+#  	#int	#16	#16		#type: int <br /> default value: 16<br /><br />size of the array (as in nxn)			#null	#size of the array (as in nxn)
+#  	#int	#4	#4		#type: int <br /> default value: 4<br /><br />number of processors				#null	#number of processors
+#  	#int	#0.1	#0.1		#type: int <br /> default value: 0.1<br /><br />tolerance					#null	#tolerance
+#  	#int	#2	#2		#type: int <br /> default value: 2<br /><br />columns per processor ( 1, 2, 4, 8 or 16 )	#null	#columns per processor ( 1, 2, 4, 8 or 16 )
+#  	#int	#0	#0		#type: int <br /> default value: 0<br /><br />verbose operation 				#null	#verbose operation

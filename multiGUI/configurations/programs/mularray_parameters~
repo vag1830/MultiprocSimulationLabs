@@ -1,0 +1,4 @@
+/* QS Configuration file */
+name	type	value	default-value	desc			group
+#  	#int	#10	#10		#type: int <br /> default value: 16<br /><br />number of processors	#null	#number of processors
+#  	#int	#512	#512		#type: int <br /> default value: 16<br /><br />size of the array	#null	#size of the array

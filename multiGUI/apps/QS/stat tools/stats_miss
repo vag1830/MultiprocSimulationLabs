@@ -1,0 +1,35 @@
+Phase 1 STATS
+FILE qs-p4-s8192-def_conf
+Misses: 5021
+Miss latency: 143.81
+Overlapped miss latency: 21.20
+Fraction unoverlapped: 84.67\%
+Refs: 1134478
+L1refs: 1134478
+L2refs: 5021
+L1hits: 99.53 (1129163)
+L1misses: 0.44 (5021)
+L2hits: 18.64 (936)
+L2misses: 81.36 (4085)
+Local mems: 3.48 (142)
+Remote mems: 96.52 (3943)
+Average L1 MSHR = 0.12675
+Average L2 MSHR = 0.224
+Average network read latency = 159.388 (over 4090 )
+FILE qs-p4-s8192-l1_32-l2_128
+Misses: 4597
+Miss latency: 164.51
+Overlapped miss latency: 24.43
+Fraction unoverlapped: 84.63\%
+Refs: 1132909
+L1refs: 1132909
+L2refs: 4597
+L1hits: 99.57 (1128002)
+L1misses: 0.41 (4597)
+L2hits: 7.53 (346)
+L2misses: 92.47 (4251)
+Local mems: 3.29 (140)
+Remote mems: 96.71 (4111)
+Average L1 MSHR = 0.129
+Average L2 MSHR = 0.235
+Average network read latency = 160.917 (over 4256 )

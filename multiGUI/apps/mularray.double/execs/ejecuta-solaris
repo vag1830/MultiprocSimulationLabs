@@ -1,0 +1,1 @@
+../../../obj/SC_ultra/rsim -f mularray_rc -S mularray_rc-solaris -D../outputs -0 /dev/null -z input_up  -- abcd efghij klmn 

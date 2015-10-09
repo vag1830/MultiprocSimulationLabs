@@ -1,0 +1,3 @@
+/* QS Configuration file */
+name	type	value	default-value	desc			group
+#abcd   #string	#abcd efghij klmn 	#abcd efghij klmn 		#null	#null

@@ -1,0 +1,3063 @@
+
+Network Parameters:
+MESH:	size: 4x4	Speed: 2 (x prcr speed)
+	Width of links: 8 (in bytes)	Switch Buffer Size: 64 (in flits; )
+
+
+Primary Cache Size 32KB, Line Size: 64B, Set Size: 1, Coherence: PR_WT, Adaptive: FALSE
+
+
+Secondary Cache Size 128KB, Line Size: 64B, Set Size: 4, Coherence: WB_NREF, Adaptive: FALSE
+Associate Addr Node: start -2147440640 end -2147440372 node 0
+Associate Addr Node: start -2147482688 end -2147462272 node 0
+Associate Addr Node: start -2147461568 end -2147441152 node 0
+Associate Addr Node: start -2147440704 end -2147440692 node 0
+
+TIME FOR EXECUTION:	1.11229e+07
+
+##### Cache Statistics #####
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+cache0             8                4(   50%)          0             1.438e-06
+Num_hit: 4  Num_miss: 4 Num_lat: 0
+DEMAND READ	CACHE_HIT: 4        (0.571,0.500)
+DEMAND READ	CACHE_MISS_COLD: 3        (0.429,0.375)
+DEMAND READ	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_WT: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_HIT: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COLD: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_WT: 1        (1.000,0.125)
+DEMAND WRITE	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND RMW	CACHE_HIT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COLD: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CONF: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CAP: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COHE: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_UPGR: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_WT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+DEMAND network miss READ	: 0 @ nan [stddev nan]
+DEMAND network miss WRITE	: 0 @ nan [stddev nan]
+DEMAND network miss RMW	: 0 @ nan [stddev nan]
+PREF network miss L1WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L1READ_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2READ_PREFETCH	: 0 @ nan [stddev nan]
+
+Mean MSHR occupancy: 0.849 [stddev 0.360]
+
+Statistics Record Mshr occupancy:
+   Number of intervals = 5, Max Value = 1, Min Value = 0
+   Sampling interval = 1.11228e+07,   Sampling rate = 5.39432e-07
+   Mean = 0.848684,   Standard Deviation = 0.359541
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    23.000 (15.13%) |*******
+     1.000    129.000 (84.87%) |******************************************
+     2.000     0.000 ( 0.00%) |
+     3.000     0.000 ( 0.00%) |
+     4.000     0.000 ( 0.00%) |
+     5.000     0.000 ( 0.00%) |
+     6.000     0.000 ( 0.00%) |
+     7.000     0.000 ( 0.00%) |
+     8.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean MSHR request occupancy: 0.849 [stddev 0.360]
+
+Statistics Record Mshr req occupancy:
+   Number of intervals = 5, Max Value = 1, Min Value = 0
+   Sampling interval = 1.11228e+07,   Sampling rate = 5.39432e-07
+   Mean = 0.848684,   Standard Deviation = 0.359541
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    152.000 (100.00%) |**************************************************
+    12.800     0.000 ( 0.00%) |
+    25.600     0.000 ( 0.00%) |
+    38.400     0.000 ( 0.00%) |
+    51.200     0.000 ( 0.00%) |
+    64.000     0.000 ( 0.00%) |
+    76.800     0.000 ( 0.00%) |
+    89.600     0.000 ( 0.00%) |
+    102.400     0.000 ( 0.00%) |
+    115.200     0.000 ( 0.00%) |
+    128.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean lateness: nan [stddev nan]
+
+Statistics Record Prefetch Lateness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Mean earlyness: nan [stddev nan]
+
+Statistics Record Prefetch Earlyness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+MSHR PIPE STALLS: WAR (0)	MSHR_COHE (0)	PEND_COHE (0)	MAX_COAL (0)	CONF (0)	FULL (0)
+
+Cohes:	0
+Cohes nacked:	0
+Cohes stalled:	0
+Cohe-replys:	0
+Cohe-replys merged:	0
+Cohe-replys merged but ignored for PR:	0
+Cohe-replys nacked:	0
+Cohe-replys nacked with docohe:	0
+Cohe-replys nacked with failed merge:	0
+Cohe-replys nack-pended:	0
+Cohe-reply  nack-pends propagated:	0
+Cohe-reply  unsolicited WRBs:	0
+Cohe cache-to-cache requests:	0
+Cohe cache-to-cache failures:	0
+
+Replies nacked: 0
+RARs handled: 0
+
+WRB inclusions sent: 0	from L2,E: 0	real: 0	race: 0	repeats: 0
+Victims: SH_CL: 0	PR_CL: 0	PR_DY: 0
+Pipe stalls for REQs matching WRB replacement: 0	for WRBBUF full: 0
+
+Pref_Total: 0
+Pref_Dropped: 0 ( nan %)
+Pref_Unnecessary: 0 ( nan %)
+Pref_Late: 0 ( nan %)
+Pref_Useful: 0 ( nan %)
+Pref_Upgrade: 0 ( nan %)
+Pref_Useless: 0 ( nan %)
+Pref_Invalidated: 0 ( nan %)
+Pref_Downgraded: 0 ( nan %)
+Pref_Damaging: 0 ( nan %)
+
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+L2cache0           4                1(   25%)          0             3.686e-06
+Num_hit: 1  Num_miss: 3 Num_lat: 0
+DEMAND READ	CACHE_HIT: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COLD: 3        (1.000,0.750)
+DEMAND READ	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_WT: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_HIT: 1        (1.000,0.250)
+DEMAND WRITE	CACHE_MISS_COLD: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_WT: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND RMW	CACHE_HIT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COLD: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CONF: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CAP: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COHE: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_UPGR: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_WT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+DEMAND network miss READ	: 3 @ 31.000 [stddev 0.000]
+DEMAND network miss WRITE	: 0 @ nan [stddev nan]
+DEMAND network miss RMW	: 0 @ nan [stddev nan]
+PREF network miss L1WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L1READ_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2READ_PREFETCH	: 0 @ nan [stddev nan]
+
+Mean MSHR occupancy: 0.713 [stddev 0.454]
+
+Statistics Record Mshr occupancy:
+   Number of intervals = 5, Max Value = 1, Min Value = 0
+   Sampling interval = 1.11228e+07,   Sampling rate = 5.39432e-07
+   Mean = 0.713287,   Standard Deviation = 0.453816
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    41.000 (28.67%) |**************
+     1.000    102.000 (71.33%) |***********************************
+     2.000     0.000 ( 0.00%) |
+     3.000     0.000 ( 0.00%) |
+     4.000     0.000 ( 0.00%) |
+     5.000     0.000 ( 0.00%) |
+     6.000     0.000 ( 0.00%) |
+     7.000     0.000 ( 0.00%) |
+     8.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean MSHR request occupancy: 0.713 [stddev 0.454]
+
+Statistics Record Mshr req occupancy:
+   Number of intervals = 5, Max Value = 1, Min Value = 0
+   Sampling interval = 1.11228e+07,   Sampling rate = 5.39432e-07
+   Mean = 0.713287,   Standard Deviation = 0.453816
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    143.000 (100.00%) |**************************************************
+    12.800     0.000 ( 0.00%) |
+    25.600     0.000 ( 0.00%) |
+    38.400     0.000 ( 0.00%) |
+    51.200     0.000 ( 0.00%) |
+    64.000     0.000 ( 0.00%) |
+    76.800     0.000 ( 0.00%) |
+    89.600     0.000 ( 0.00%) |
+    102.400     0.000 ( 0.00%) |
+    115.200     0.000 ( 0.00%) |
+    128.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean lateness: nan [stddev nan]
+
+Statistics Record Prefetch Lateness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Mean earlyness: nan [stddev nan]
+
+Statistics Record Prefetch Earlyness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+MSHR PIPE STALLS: WAR (0)	MSHR_COHE (0)	PEND_COHE (0)	MAX_COAL (0)	CONF (0)	FULL (0)
+
+Cohes:	0
+Cohes nacked:	0
+Cohes stalled:	0
+Cohe-replys:	0
+Cohe-replys merged:	0
+Cohe-replys merged but ignored for PR:	0
+Cohe-replys nacked:	0
+Cohe-replys nacked with docohe:	0
+Cohe-replys nacked with failed merge:	0
+Cohe-replys nack-pended:	0
+Cohe-reply  nack-pends propagated:	0
+Cohe-reply  unsolicited WRBs:	0
+Cohe cache-to-cache requests:	0
+Cohe cache-to-cache failures:	0
+
+Replies nacked: 0
+RARs handled: 0
+
+WRB inclusions sent: 0	from L2,E: 0	real: 0	race: 0	repeats: 0
+Victims: SH_CL: 0	PR_CL: 0	PR_DY: 0
+Pipe stalls for REQs matching WRB replacement: 0	for WRBBUF full: 0
+
+Pref_Total: 0
+Pref_Dropped: 0 ( nan %)
+Pref_Unnecessary: 0 ( nan %)
+Pref_Late: 0 ( nan %)
+Pref_Useful: 0 ( nan %)
+Pref_Upgrade: 0 ( nan %)
+Pref_Useless: 0 ( nan %)
+Pref_Invalidated: 0 ( nan %)
+Pref_Downgraded: 0 ( nan %)
+Pref_Damaging: 0 ( nan %)
+
+
+##### wbuffer Statistics #####
+wbuf0	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf1	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf2	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf3	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf4	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf5	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf6	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf7	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf8	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf9	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf10	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf11	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf12	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf13	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf14	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf15	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+
+##### Bus Statistics #####
+bus0: Bus Utilization (time spent delivering pkts) = 0.0004%
+bus1: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus2: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus3: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus4: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus5: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus6: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus7: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus8: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus9: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus10: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus11: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus12: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus13: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus14: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus15: Bus Utilization (time spent delivering pkts) = 0.0000%
+
+
+
+##### Dir Statistics #####
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_2             2                2(1e+02%)          0             3.416e-06
+              Read             Write              Local            Remote
+                  2(     1)        0(     0)        2(1)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_3             1                1(1e+02%)          0             1.708e-06
+              Read             Write              Local            Remote
+                  1(     1)        0(     0)        1(1)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+#### General System Statistics ####
+
+
+Statistics Record NumInvl:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+#### REQUEST NET STATISTICS ####
+
+
+Statistics Record PktNumHopsHist_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktSzHist_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+#### Request Time Statistics ####
+
+
+Num Hops: 0
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 1
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 2
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 3
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 4
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 5
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 6
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop6:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop6:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop6:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Total Time Stats:
+
+Statistics Record PktTOTimeTotalMean_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeNetMean_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeBlkMean_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+#### REPLY NET STATISTICS ####
+
+
+Statistics Record PktNumHopsHist_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktSzHist_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+#### Reply Time Statistics ####
+
+
+Num Hops: 0
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 1
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 2
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 3
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 4
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 5
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Total Time Stats:
+
+Statistics Record PktTOTimeTotalMean_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeNetMean_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeBlkMean_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+BUFFER AND OPORT UTILIZATIONS
+Reply Network Utilization: nan
+Req Network Utilization: nan
+Total Network Utilization: nan
+
+PROCESSOR 0 Phase 0 STATISTICS: 
+Start cycle: 0		icount: 0
+End cycle: 11122878		icount: 25851249
+
+Statistics Record Active list size:
+   Number of samples = 10558468,   Max Value = 64,   Min Value = 1
+   Sampling interval = 1.11229e+07,   Sampling rate = 0.949257
+   Mean = 29.0706,   Standard Deviation = 18.578
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    974839.000 ( 9.23%) |****
+     8.000    2480127.000 (23.49%) |***********
+    16.000    1649907.000 (15.63%) |*******
+    24.000    963162.000 ( 9.12%) |****
+    32.000    1136167.000 (10.76%) |*****
+    40.000    1263408.000 (11.97%) |*****
+    48.000    895757.000 ( 8.48%) |****
+    56.000    565764.000 ( 5.36%) |**
+    64.000    629337.000 ( 5.96%) |**
+End of Report
+
+
+Statistics Record Speculation level:
+   Number of samples = 10558468,   Max Value = 8,   Min Value = 0
+   Sampling interval = 1.11229e+07,   Sampling rate = 0.949257
+   Mean = 2.40877,   Standard Deviation = 2.5399
+End of Report
+
+
+Statistics Record Mem queue size:
+   Number of samples = 10558468,   Max Value = 32,   Min Value = 0
+   Sampling interval = 1.11229e+07,   Sampling rate = 0.949257
+   Mean = 6.06339,   Standard Deviation = 5.69977
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    7362610.000 (69.73%) |**********************************
+     8.000    2314790.000 (21.92%) |**********
+    16.000    751616.000 ( 7.12%) |***
+    24.000    127790.000 ( 1.21%) |
+    32.000    1662.000 ( 0.02%) |
+End of Report
+
+BPB Good predictions: 1730466, BPB Bad predictions: 228367, BPB Prediction rate: 0.883417
+RAS Good predictions: 376425, RAS Bad predictions: 365939, RAS Prediction rate: 0.507063
+Loads issued: 0, speced: 0, limbos: 0, unlimbos: 0, redos: 0, kills: 0
+Memory unit fwds: 0, Virtual store buffer fwds: 0 Partial overlaps: 0
+
+Statistics Record Bad prediction flushes:
+   Number of samples = 594248,   Max Value = 62,   Min Value = 0
+   Sampling interval = 1.11229e+07,   Sampling rate = 0.0534258
+   Mean = 9.12787,   Standard Deviation = 13.4967
+End of Report
+
+Exceptions: 217277
+Soft Exceptions: 0
+SL Soft Exceptions: 0
+SL Soft Exceptions (replacements): 0
+SL Footnote 5 occurences: 0
+Window overflows: 307 underflows: 306
+Cycles since last graduation: 1
+
+Statistics Record Exception flushes:
+   Number of samples = 217277,   Max Value = 62,   Min Value = 4
+   Sampling interval = 1.11229e+07,   Sampling rate = 0.0195342
+   Mean = 15.8654,   Standard Deviation = 4.78274
+End of Report
+
+ALU utilization: 77.3%
+FPU utilization: 0.2%
+Addr. gen. utilization: 27.3%
+
+Statistics Record Waiting for exceptions:
+   Number of samples = 217277,   Max Value = 0,   Min Value = 0
+   Sampling interval = 1.11229e+07,   Sampling rate = 0.0195342
+   Mean = 0,   Standard Deviation = 0
+End of Report
+
+Demand read UNKNOWN -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L1HIT -- Num 4(0.571,0.500) Mean 101.750/1.000/1.000 Stddev 2.754/0.000/0.000
+Demand read L1COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read WBCOAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L2HIT -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L2COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_LH_NOCOHE -- Num 3(0.429,0.375) Mean 100.333/44.000/44.000 Stddev 51.637/0.000/0.000
+Demand read DIR_LH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_NOCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_LCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read CACHE_TO_CACHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write UNKNOWN -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L1HIT -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L1COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write WBCOAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L2HIT -- Num 1(1.000,0.125) Mean 20.000/10.000/10.000 Stddev nan/nan/nan
+Demand write L2COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_LH_NOCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_LH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_NOCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_LCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write CACHE_TO_CACHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw UNKNOWN -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L1HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L1COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw WBCOAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L2HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L2COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_LH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_LH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_LCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw CACHE_TO_CACHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Pref sh UNKNOWN -- Num 0 Mean nan Stddev nan
+Pref sh L1HIT -- Num 0 Mean nan Stddev nan
+Pref sh L1COAL -- Num 0 Mean nan Stddev nan
+Pref sh WBCOAL -- Num 0 Mean nan Stddev nan
+Pref sh L2HIT -- Num 0 Mean nan Stddev nan
+Pref sh L2COAL -- Num 0 Mean nan Stddev nan
+Pref sh DIR_LH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_LH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_LCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref sh CACHE_TO_CACHE -- Num 0 Mean nan Stddev nan
+Pref excl UNKNOWN -- Num 0 Mean nan Stddev nan
+Pref excl L1HIT -- Num 0 Mean nan Stddev nan
+Pref excl L1COAL -- Num 0 Mean nan Stddev nan
+Pref excl WBCOAL -- Num 0 Mean nan Stddev nan
+Pref excl L2HIT -- Num 0 Mean nan Stddev nan
+Pref excl L2COAL -- Num 0 Mean nan Stddev nan
+Pref excl DIR_LH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_LH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_LCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref excl CACHE_TO_CACHE -- Num 0 Mean nan Stddev nan
+
+Avail loss from ALU time: 0.024
+Avail loss from User 1 time: 0.000
+Avail loss from User 2 time: 0.000
+Avail loss from User 3 time: 0.000
+Avail loss from User 4 time: 0.000
+Avail loss from User 5 time: 0.000
+Avail loss from User 6 time: 0.000
+Avail loss from User 7 time: 0.000
+Avail loss from User 8 time: 0.000
+Avail loss from User 9 time: 0.000
+Avail loss from Barrier time: 0.000
+Avail loss from Spin time: 0.000
+Avail loss from Acquire time: 0.000
+Avail loss from Release time: 0.000
+Avail loss from RMW time: 0.000
+Avail loss from Write time: 0.007
+Avail loss from Read time: 0.003
+Avail loss from Branch time: 0.007
+Avail loss from FPU time: 0.000
+Avail loss from Except time: 0.000
+Avail loss from MEMBAR time: 0.000
+Avail loss from BUSY TIME: 0.000
+Avail loss from Read miss time: 0.000
+Avail loss from Write miss time: 0.000
+Avail loss from RMW miss time: 0.000
+Avail loss from Read L1 time: 0.000
+Avail loss from Read L2 time: 0.000
+Avail loss from Read localmem time: 0.000
+Avail loss from Read remotemem time: 0.000
+Avail loss from Write L1 time: 0.000
+Avail loss from Write L2 time: 0.000
+Avail loss from Write localmem time: 0.000
+Avail loss from Write remotemem time: 0.000
+Avail loss from RMW L1 time: 0.000
+Avail loss from RMW L2 time: 0.000
+Avail loss from RMW localmem time: 0.000
+Avail loss from RMW remotemem time: 0.000
+Avail loss from RMW Late PF time: 0.000
+Avail loss from Write Late PF time: 0.000
+Avail loss from Read Late PF time: 0.000
+
+Efficiency loss from OK: 0.000
+Efficiency loss from Branch in cycle: 0.109
+Efficiency loss from Unpredicted branch: 0.215
+Efficiency loss from Shadow mappers full: 0.037
+Efficiency loss from Rename registers full: 0.000
+Efficiency loss from Memory queue full: 0.000
+Efficiency loss from Issue queue full: 0.000
+
+Utility losses from misspecs: 0.210 excepts: 0.133
+
+
+
+
+TIME FOR EXECUTION:	1.2129e+07
+
+##### Cache Statistics #####
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+cache0        294929           260520(   88%)          0             0.02999
+Num_hit: 260520  Num_miss: 34409 Num_lat: 0
+DEMAND READ	CACHE_HIT: 260520   (0.994,0.883)
+DEMAND READ	CACHE_MISS_COLD: 380      (0.001,0.001)
+DEMAND READ	CACHE_MISS_CONF: 809      (0.003,0.003)
+DEMAND READ	CACHE_MISS_CAP: 444      (0.002,0.002)
+DEMAND READ	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_WT: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_HIT: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COLD: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_WT: 32776    (1.000,0.111)
+DEMAND WRITE	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND RMW	CACHE_HIT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COLD: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CONF: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CAP: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COHE: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_UPGR: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_WT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+DEMAND network miss READ	: 0 @ nan [stddev nan]
+DEMAND network miss WRITE	: 0 @ nan [stddev nan]
+DEMAND network miss RMW	: 0 @ nan [stddev nan]
+PREF network miss L1WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L1READ_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2READ_PREFETCH	: 0 @ nan [stddev nan]
+
+Mean MSHR occupancy: 0.027 [stddev 0.163]
+
+Statistics Record Mshr occupancy:
+   Number of intervals = 3265, Max Value = 1, Min Value = 0
+   Sampling interval = 1.00566e+06,   Sampling rate = 0.00324763
+   Mean = 0.0274628,   Standard Deviation = 0.163428
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    977999.000 (97.25%) |************************************************
+     1.000    27617.000 ( 2.75%) |*
+     2.000     0.000 ( 0.00%) |
+     3.000     0.000 ( 0.00%) |
+     4.000     0.000 ( 0.00%) |
+     5.000     0.000 ( 0.00%) |
+     6.000     0.000 ( 0.00%) |
+     7.000     0.000 ( 0.00%) |
+     8.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean MSHR request occupancy: 0.027 [stddev 0.163]
+
+Statistics Record Mshr req occupancy:
+   Number of intervals = 3265, Max Value = 1, Min Value = 0
+   Sampling interval = 1.00566e+06,   Sampling rate = 0.00324763
+   Mean = 0.0274628,   Standard Deviation = 0.163428
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    1005616.000 (100.00%) |**************************************************
+    12.800     0.000 ( 0.00%) |
+    25.600     0.000 ( 0.00%) |
+    38.400     0.000 ( 0.00%) |
+    51.200     0.000 ( 0.00%) |
+    64.000     0.000 ( 0.00%) |
+    76.800     0.000 ( 0.00%) |
+    89.600     0.000 ( 0.00%) |
+    102.400     0.000 ( 0.00%) |
+    115.200     0.000 ( 0.00%) |
+    128.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean lateness: nan [stddev nan]
+
+Statistics Record Prefetch Lateness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Mean earlyness: nan [stddev nan]
+
+Statistics Record Prefetch Earlyness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+MSHR PIPE STALLS: WAR (0)	MSHR_COHE (0)	PEND_COHE (0)	MAX_COAL (0)	CONF (0)	FULL (0)
+
+Cohes:	0
+Cohes nacked:	0
+Cohes stalled:	0
+Cohe-replys:	0
+Cohe-replys merged:	0
+Cohe-replys merged but ignored for PR:	0
+Cohe-replys nacked:	0
+Cohe-replys nacked with docohe:	0
+Cohe-replys nacked with failed merge:	0
+Cohe-replys nack-pended:	0
+Cohe-reply  nack-pends propagated:	0
+Cohe-reply  unsolicited WRBs:	0
+Cohe cache-to-cache requests:	0
+Cohe cache-to-cache failures:	0
+
+Replies nacked: 0
+RARs handled: 0
+
+WRB inclusions sent: 0	from L2,E: 0	real: 0	race: 0	repeats: 0
+Victims: SH_CL: 0	PR_CL: 1124	PR_DY: 0
+Pipe stalls for REQs matching WRB replacement: 0	for WRBBUF full: 0
+
+Pref_Total: 0
+Pref_Dropped: 0 ( nan %)
+Pref_Unnecessary: 0 ( nan %)
+Pref_Late: 0 ( nan %)
+Pref_Useful: 0 ( nan %)
+Pref_Upgrade: 0 ( nan %)
+Pref_Useless: 0 ( nan %)
+Pref_Invalidated: 0 ( nan %)
+Pref_Downgraded: 0 ( nan %)
+Pref_Damaging: 0 ( nan %)
+
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+L2cache0       34409            33741(   98%)          0             0.02286
+Num_hit: 33741  Num_miss: 668 Num_lat: 0
+DEMAND READ	CACHE_HIT: 1253     (0.767,0.036)
+DEMAND READ	CACHE_MISS_COLD: 380      (0.233,0.011)
+DEMAND READ	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_WT: 0        (0.000,0.000)
+DEMAND READ	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_HIT: 32488    (0.991,0.944)
+DEMAND WRITE	CACHE_MISS_COLD: 288      (0.009,0.008)
+DEMAND WRITE	CACHE_MISS_CONF: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_CAP: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COHE: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_UPGR: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_WT: 0        (0.000,0.000)
+DEMAND WRITE	CACHE_MISS_COAL: 0        (0.000,0.000)
+DEMAND RMW	CACHE_HIT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COLD: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CONF: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_CAP: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COHE: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_UPGR: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_WT: 0        (nan,0.000)
+DEMAND RMW	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L1READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2WRITE_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_HIT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COLD: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CONF: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_CAP: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COHE: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_UPGR: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_WT: 0        (nan,0.000)
+PREF   L2READ_PREFETCH	CACHE_MISS_COAL: 0        (nan,0.000)
+DEMAND network miss READ	: 380 @ 31.000 [stddev 0.000]
+DEMAND network miss WRITE	: 288 @ 31.000 [stddev 0.000]
+DEMAND network miss RMW	: 0 @ nan [stddev nan]
+PREF network miss L1WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L1READ_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2WRITE_PREFETCH	: 0 @ nan [stddev nan]
+PREF network miss L2READ_PREFETCH	: 0 @ nan [stddev nan]
+
+Mean MSHR occupancy: 0.084 [stddev 0.277]
+
+Statistics Record Mshr occupancy:
+   Number of intervals = 1335, Max Value = 1, Min Value = 0
+   Sampling interval = 270417,   Sampling rate = 0.00494052
+   Mean = 0.0840025,   Standard Deviation = 0.277392
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    247661.000 (91.60%) |*********************************************
+     1.000    22712.000 ( 8.40%) |****
+     2.000     0.000 ( 0.00%) |
+     3.000     0.000 ( 0.00%) |
+     4.000     0.000 ( 0.00%) |
+     5.000     0.000 ( 0.00%) |
+     6.000     0.000 ( 0.00%) |
+     7.000     0.000 ( 0.00%) |
+     8.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean MSHR request occupancy: 0.084 [stddev 0.277]
+
+Statistics Record Mshr req occupancy:
+   Number of intervals = 1335, Max Value = 1, Min Value = 0
+   Sampling interval = 270417,   Sampling rate = 0.00494052
+   Mean = 0.0840025,   Standard Deviation = 0.277392
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    270373.000 (100.00%) |**************************************************
+    12.800     0.000 ( 0.00%) |
+    25.600     0.000 ( 0.00%) |
+    38.400     0.000 ( 0.00%) |
+    51.200     0.000 ( 0.00%) |
+    64.000     0.000 ( 0.00%) |
+    76.800     0.000 ( 0.00%) |
+    89.600     0.000 ( 0.00%) |
+    102.400     0.000 ( 0.00%) |
+    115.200     0.000 ( 0.00%) |
+    128.000     0.000 ( 0.00%) |
+End of Report
+
+
+Mean lateness: nan [stddev nan]
+
+Statistics Record Prefetch Lateness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Mean earlyness: nan [stddev nan]
+
+Statistics Record Prefetch Earlyness:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+MSHR PIPE STALLS: WAR (0)	MSHR_COHE (0)	PEND_COHE (0)	MAX_COAL (0)	CONF (0)	FULL (0)
+
+Cohes:	0
+Cohes nacked:	0
+Cohes stalled:	0
+Cohe-replys:	0
+Cohe-replys merged:	0
+Cohe-replys merged but ignored for PR:	0
+Cohe-replys nacked:	0
+Cohe-replys nacked with docohe:	0
+Cohe-replys nacked with failed merge:	0
+Cohe-replys nack-pended:	0
+Cohe-reply  nack-pends propagated:	0
+Cohe-reply  unsolicited WRBs:	0
+Cohe cache-to-cache requests:	0
+Cohe cache-to-cache failures:	0
+
+Replies nacked: 0
+RARs handled: 0
+
+WRB inclusions sent: 0	from L2,E: 0	real: 0	race: 0	repeats: 0
+Victims: SH_CL: 0	PR_CL: 0	PR_DY: 0
+Pipe stalls for REQs matching WRB replacement: 0	for WRBBUF full: 0
+
+Pref_Total: 0
+Pref_Dropped: 0 ( nan %)
+Pref_Unnecessary: 0 ( nan %)
+Pref_Late: 0 ( nan %)
+Pref_Useful: 0 ( nan %)
+Pref_Upgrade: 0 ( nan %)
+Pref_Useless: 0 ( nan %)
+Pref_Invalidated: 0 ( nan %)
+Pref_Downgraded: 0 ( nan %)
+Pref_Damaging: 0 ( nan %)
+
+
+##### wbuffer Statistics #####
+wbuf0	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf1	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf2	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf3	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf4	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf5	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf6	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf7	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf8	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf9	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf10	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf11	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf12	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf13	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf14	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+wbuf15	Coalescings: 0	Stalls	Full: 0	MAX_COAL: 0	read_match: 0
+
+##### Bus Statistics #####
+bus0: Bus Utilization (time spent delivering pkts) = 0.9295%
+bus1: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus2: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus3: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus4: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus5: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus6: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus7: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus8: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus9: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus10: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus11: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus12: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus13: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus14: Bus Utilization (time spent delivering pkts) = 0.0000%
+bus15: Bus Utilization (time spent delivering pkts) = 0.0000%
+
+
+
+##### Dir Statistics #####
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_0           168              168(1e+02%)          0             0.0002632
+              Read             Write              Local            Remote
+                 88(0.5238)       80(0.4762)      168(1)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_1           167              167(1e+02%)          0             0.0002616
+              Read             Write              Local            Remote
+                103(0.6168)       64(0.3832)      167(1)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_2           166              166(1e+02%)          0             0.00026
+              Read             Write              Local            Remote
+                 86(0.5181)       80(0.4819)      166(1)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir0_3           167              167(1e+02%)          0             0.0002616
+              Read             Write              Local            Remote
+                103(0.6168)       64(0.3832)      167(1)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir1_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir2_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir3_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir4_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir5_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir6_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir7_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir8_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_0             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_1             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_2             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir9_3             0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir10_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir11_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir12_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir13_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir14_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_0            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_1            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_2            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+Name          Num_Ref          Num_Hit;Hit_Rate   Miss_latency     Utilization
+dir15_3            0                0(    0%)          0                  0
+              Read             Write              Local            Remote
+                  0(     0)        0(     0)        0(0)        0(     0)
+              NumBufRAR 
+                  0(     0) 
+
+#### General System Statistics ####
+
+
+Statistics Record NumInvl:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+#### REQUEST NET STATISTICS ####
+
+
+Statistics Record PktNumHopsHist_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktSzHist_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+#### Request Time Statistics ####
+
+
+Num Hops: 0
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 1
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 2
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 3
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 4
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 5
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 6
+
+Statistics Record PktHpsTimeTotalMean_Net0_Hop6:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net0_Hop6:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net0_Hop6:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Total Time Stats:
+
+Statistics Record PktTOTimeTotalMean_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeNetMean_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeBlkMean_Net0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+#### REPLY NET STATISTICS ####
+
+
+Statistics Record PktNumHopsHist_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktSzHist_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+#### Reply Time Statistics ####
+
+
+Num Hops: 0
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop0:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 1
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 2
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop2:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 3
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop3:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 4
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop4:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Num Hops: 5
+
+Statistics Record PktHpsTimeTotalMean_Net1_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeNetMean_Net1_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktHpsTimeBlkMean_Net1_Hop5:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+
+Total Time Stats:
+
+Statistics Record PktTOTimeTotalMean_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeNetMean_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+Statistics Record PktTOTimeBlkMean_Net1:
+   Number of samples = 0,   Max Value = 0,   Min Value = 0
+   Sampling interval = 0,   Sampling rate = inf
+   Mean = nan,   Standard Deviation = 0
+End of Report
+
+
+BUFFER AND OPORT UTILIZATIONS
+Reply Network Utilization: nan
+Req Network Utilization: nan
+Total Network Utilization: nan
+
+PROCESSOR 0 Phase 1 STATISTICS: 
+Start cycle: 11122886		icount: 25851276
+End cycle: 12129051		icount: 26609894
+
+Statistics Record Active list size:
+   Number of samples = 1006162,   Max Value = 64,   Min Value = 2
+   Sampling interval = 1.00616e+06,   Sampling rate = 0.999998
+   Mean = 63.6131,   Standard Deviation = 4.03679
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    822.000 ( 0.08%) |
+     8.000    1847.000 ( 0.18%) |
+    16.000    2547.000 ( 0.25%) |
+    24.000    1143.000 ( 0.11%) |
+    32.000    1598.000 ( 0.16%) |
+    40.000    1159.000 ( 0.12%) |
+    48.000    1051.000 ( 0.10%) |
+    56.000    1515.000 ( 0.15%) |
+    64.000    994480.000 (98.84%) |*************************************************
+End of Report
+
+
+Statistics Record Speculation level:
+   Number of samples = 1006162,   Max Value = 8,   Min Value = 0
+   Sampling interval = 1.00616e+06,   Sampling rate = 0.999998
+   Mean = 2.91775,   Standard Deviation = 0.308053
+End of Report
+
+
+Statistics Record Mem queue size:
+   Number of samples = 1006162,   Max Value = 32,   Min Value = 0
+   Sampling interval = 1.00616e+06,   Sampling rate = 0.999998
+   Mean = 31.8048,   Standard Deviation = 2.11203
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    2947.000 ( 0.29%) |
+     8.000    3265.000 ( 0.32%) |
+    16.000    2454.000 ( 0.24%) |
+    24.000    2465.000 ( 0.24%) |
+    32.000    995031.000 (98.89%) |*************************************************
+End of Report
+
+BPB Good predictions: 33296, BPB Bad predictions: 536, BPB Prediction rate: 0.984157
+RAS Good predictions: 12, RAS Bad predictions: 4, RAS Prediction rate: 0.750000
+Loads issued: 0, speced: 0, limbos: 0, unlimbos: 0, redos: 0, kills: 0
+Memory unit fwds: 0, Virtual store buffer fwds: 0 Partial overlaps: 0
+
+Statistics Record Bad prediction flushes:
+   Number of samples = 540,   Max Value = 63,   Min Value = 0
+   Sampling interval = 1.00616e+06,   Sampling rate = 0.000536693
+   Mean = 58.1852,   Standard Deviation = 10.9995
+End of Report
+
+Exceptions: 3
+Soft Exceptions: 0
+SL Soft Exceptions: 0
+SL Soft Exceptions (replacements): 0
+SL Footnote 5 occurences: 0
+Window overflows: 0 underflows: 0
+Cycles since last graduation: 1
+
+Statistics Record Exception flushes:
+   Number of samples = 3,   Max Value = 6,   Min Value = 4
+   Sampling interval = 1.00616e+06,   Sampling rate = 2.98162e-06
+   Mean = 4.66667,   Standard Deviation = 1.1547
+End of Report
+
+ALU utilization: 10.2%
+FPU utilization: 6.5%
+Addr. gen. utilization: 19.8%
+
+Statistics Record Waiting for exceptions:
+   Number of samples = 3,   Max Value = 0,   Min Value = 0
+   Sampling interval = 1.00616e+06,   Sampling rate = 2.98162e-06
+   Mean = 0,   Standard Deviation = 0
+End of Report
+
+Demand read UNKNOWN -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L1HIT -- Num 260520(0.994,0.883) Mean 85.952/1.791/1.000 Stddev 15.779/2.523/0.000
+Demand read L1COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read WBCOAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L2HIT -- Num 1253(0.005,0.004) Mean 79.816/12.414/10.000 Stddev 34.303/4.934/0.000
+Demand read L2COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_LH_NOCOHE -- Num 380(0.001,0.001) Mean 121.068/50.416/44.000 Stddev 37.349/13.222/0.000
+Demand read DIR_LH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_NOCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_LCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read CACHE_TO_CACHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write UNKNOWN -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L1HIT -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L1COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write WBCOAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L2HIT -- Num 32488(0.991,0.110) Mean 88.007/15.975/10.000 Stddev 12.817/0.316/0.000
+Demand write L2COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_LH_NOCOHE -- Num 288(0.009,0.001) Mean 157.750/49.451/44.000 Stddev 31.594/1.452/0.000
+Demand write DIR_LH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_NOCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_LCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write CACHE_TO_CACHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw UNKNOWN -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L1HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L1COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw WBCOAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L2HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L2COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_LH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_LH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_LCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw CACHE_TO_CACHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Pref sh UNKNOWN -- Num 0 Mean nan Stddev nan
+Pref sh L1HIT -- Num 0 Mean nan Stddev nan
+Pref sh L1COAL -- Num 0 Mean nan Stddev nan
+Pref sh WBCOAL -- Num 0 Mean nan Stddev nan
+Pref sh L2HIT -- Num 0 Mean nan Stddev nan
+Pref sh L2COAL -- Num 0 Mean nan Stddev nan
+Pref sh DIR_LH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_LH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_LCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref sh CACHE_TO_CACHE -- Num 0 Mean nan Stddev nan
+Pref excl UNKNOWN -- Num 0 Mean nan Stddev nan
+Pref excl L1HIT -- Num 0 Mean nan Stddev nan
+Pref excl L1COAL -- Num 0 Mean nan Stddev nan
+Pref excl WBCOAL -- Num 0 Mean nan Stddev nan
+Pref excl L2HIT -- Num 0 Mean nan Stddev nan
+Pref excl L2COAL -- Num 0 Mean nan Stddev nan
+Pref excl DIR_LH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_LH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_LCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref excl CACHE_TO_CACHE -- Num 0 Mean nan Stddev nan
+
+Avail loss from ALU time: 0.000
+Avail loss from User 1 time: 0.000
+Avail loss from User 2 time: 0.000
+Avail loss from User 3 time: 0.000
+Avail loss from User 4 time: 0.000
+Avail loss from User 5 time: 0.000
+Avail loss from User 6 time: 0.000
+Avail loss from User 7 time: 0.000
+Avail loss from User 8 time: 0.000
+Avail loss from User 9 time: 0.000
+Avail loss from Barrier time: 0.000
+Avail loss from Spin time: 0.000
+Avail loss from Acquire time: 0.000
+Avail loss from Release time: 0.000
+Avail loss from RMW time: 0.000
+Avail loss from Write time: 0.327
+Avail loss from Read time: 0.178
+Avail loss from Branch time: 0.016
+Avail loss from FPU time: 0.290
+Avail loss from Except time: 0.000
+Avail loss from MEMBAR time: 0.000
+Avail loss from BUSY TIME: 0.000
+Avail loss from Read miss time: 0.000
+Avail loss from Write miss time: 0.000
+Avail loss from RMW miss time: 0.000
+Avail loss from Read L1 time: 0.000
+Avail loss from Read L2 time: 0.000
+Avail loss from Read localmem time: 0.000
+Avail loss from Read remotemem time: 0.000
+Avail loss from Write L1 time: 0.000
+Avail loss from Write L2 time: 0.000
+Avail loss from Write localmem time: 0.000
+Avail loss from Write remotemem time: 0.000
+Avail loss from RMW L1 time: 0.000
+Avail loss from RMW L2 time: 0.000
+Avail loss from RMW localmem time: 0.000
+Avail loss from RMW remotemem time: 0.000
+Avail loss from RMW Late PF time: 0.000
+Avail loss from Write Late PF time: 0.000
+Avail loss from Read Late PF time: 0.000
+
+Efficiency loss from OK: 0.000
+Efficiency loss from Branch in cycle: 0.005
+Efficiency loss from Unpredicted branch: 0.000
+Efficiency loss from Shadow mappers full: 0.000
+Efficiency loss from Rename registers full: 0.000
+Efficiency loss from Memory queue full: 0.000
+Efficiency loss from Issue queue full: 0.000
+
+Utility losses from misspecs: 0.041 excepts: 0.000
+
+
+
+PROCESSOR 0 Phase 2 STATISTICS: 
+Start cycle: 12129058		icount: 26609915
+End cycle: 28301664		icount: 65225737
+
+Statistics Record Active list size:
+   Number of samples = 15280149,   Max Value = 64,   Min Value = 1
+   Sampling interval = 1.61726e+07,   Sampling rate = 0.944817
+   Mean = 33.2449,   Standard Deviation = 20.3984
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    1173753.000 ( 7.68%) |***
+     8.000    3032719.000 (19.85%) |*********
+    16.000    2074491.000 (13.58%) |******
+    24.000    1527183.000 ( 9.99%) |****
+    32.000    1481788.000 ( 9.70%) |****
+    40.000    1606843.000 (10.52%) |*****
+    48.000    1060998.000 ( 6.94%) |***
+    56.000    1079370.000 ( 7.06%) |***
+    64.000    2243004.000 (14.68%) |*******
+End of Report
+
+
+Statistics Record Speculation level:
+   Number of samples = 15280149,   Max Value = 8,   Min Value = 0
+   Sampling interval = 1.61726e+07,   Sampling rate = 0.944817
+   Mean = 2.47313,   Standard Deviation = 2.34909
+End of Report
+
+
+Statistics Record Mem queue size:
+   Number of samples = 15280149,   Max Value = 28,   Min Value = 0
+   Sampling interval = 1.61726e+07,   Sampling rate = 0.944817
+   Mean = 5.98945,   Standard Deviation = 5.46489
+      Bin         Value
+      ---         -----
+       -       0.000 ( 0.00%) |
+     0.000    10770207.000 (70.48%) |***********************************
+     8.000    3273025.000 (21.42%) |**********
+    16.000    1103718.000 ( 7.22%) |***
+    24.000    133199.000 ( 0.87%) |
+    32.000     0.000 ( 0.00%) |
+End of Report
+
+BPB Good predictions: 2365642, BPB Bad predictions: 387598, BPB Prediction rate: 0.859221
+RAS Good predictions: 545491, RAS Bad predictions: 486425, RAS Prediction rate: 0.528620
+Loads issued: 0, speced: 0, limbos: 0, unlimbos: 0, redos: 0, kills: 0
+Memory unit fwds: 0, Virtual store buffer fwds: 0 Partial overlaps: 0
+
+Statistics Record Bad prediction flushes:
+   Number of samples = 873862,   Max Value = 63,   Min Value = 0
+   Sampling interval = 1.61726e+07,   Sampling rate = 0.0540336
+   Mean = 9.62403,   Standard Deviation = 14.2597
+End of Report
+
+Exceptions: 288788
+Soft Exceptions: 0
+SL Soft Exceptions: 0
+SL Soft Exceptions (replacements): 0
+SL Footnote 5 occurences: 0
+Window overflows: 1634 underflows: 1635
+Cycles since last graduation: 0
+
+Statistics Record Exception flushes:
+   Number of samples = 288788,   Max Value = 62,   Min Value = 2
+   Sampling interval = 1.61726e+07,   Sampling rate = 0.0178566
+   Mean = 17.7012,   Standard Deviation = 9.0171
+End of Report
+
+ALU utilization: 80.3%
+FPU utilization: 0.1%
+Addr. gen. utilization: 26.2%
+
+Statistics Record Waiting for exceptions:
+   Number of samples = 288788,   Max Value = 0,   Min Value = 0
+   Sampling interval = 1.61726e+07,   Sampling rate = 0.0178566
+   Mean = 0,   Standard Deviation = 0
+End of Report
+
+Demand read UNKNOWN -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L1HIT -- Num 16844(0.982,0.982) Mean 7.215/1.000/1.000 Stddev 3.269/0.000/0.000
+Demand read L1COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read WBCOAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read L2HIT -- Num 314(0.018,0.018) Mean 17.051/10.000/10.000 Stddev 3.839/0.000/0.000
+Demand read L2COAL -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_LH_NOCOHE -- Num 2(0.000,0.000) Mean 53.500/44.000/44.000 Stddev 0.707/0.000/0.000
+Demand read DIR_LH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_NOCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_LCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read DIR_RH_RCOHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand read CACHE_TO_CACHE -- Num 0(0.000,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write UNKNOWN -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L1HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L1COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write WBCOAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L2HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write L2COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_LH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_LH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_LCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write DIR_RH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand write CACHE_TO_CACHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw UNKNOWN -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L1HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L1COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw WBCOAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L2HIT -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw L2COAL -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_LH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_LH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_NOCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_LCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw DIR_RH_RCOHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Demand rmw CACHE_TO_CACHE -- Num 0(nan,0.000) Mean nan/nan/nan Stddev nan/nan/nan
+Pref sh UNKNOWN -- Num 0 Mean nan Stddev nan
+Pref sh L1HIT -- Num 0 Mean nan Stddev nan
+Pref sh L1COAL -- Num 0 Mean nan Stddev nan
+Pref sh WBCOAL -- Num 0 Mean nan Stddev nan
+Pref sh L2HIT -- Num 0 Mean nan Stddev nan
+Pref sh L2COAL -- Num 0 Mean nan Stddev nan
+Pref sh DIR_LH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_LH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_LCOHE -- Num 0 Mean nan Stddev nan
+Pref sh DIR_RH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref sh CACHE_TO_CACHE -- Num 0 Mean nan Stddev nan
+Pref excl UNKNOWN -- Num 0 Mean nan Stddev nan
+Pref excl L1HIT -- Num 0 Mean nan Stddev nan
+Pref excl L1COAL -- Num 0 Mean nan Stddev nan
+Pref excl WBCOAL -- Num 0 Mean nan Stddev nan
+Pref excl L2HIT -- Num 0 Mean nan Stddev nan
+Pref excl L2COAL -- Num 0 Mean nan Stddev nan
+Pref excl DIR_LH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_LH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_NOCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_LCOHE -- Num 0 Mean nan Stddev nan
+Pref excl DIR_RH_RCOHE -- Num 0 Mean nan Stddev nan
+Pref excl CACHE_TO_CACHE -- Num 0 Mean nan Stddev nan
+
+Avail loss from ALU time: 0.065
+Avail loss from User 1 time: 0.000
+Avail loss from User 2 time: 0.000
+Avail loss from User 3 time: 0.000
+Avail loss from User 4 time: 0.000
+Avail loss from User 5 time: 0.000
+Avail loss from User 6 time: 0.000
+Avail loss from User 7 time: 0.000
+Avail loss from User 8 time: 0.000
+Avail loss from User 9 time: 0.000
+Avail loss from Barrier time: 0.000
+Avail loss from Spin time: 0.000
+Avail loss from Acquire time: 0.000
+Avail loss from Release time: 0.000
+Avail loss from RMW time: 0.000
+Avail loss from Write time: 0.011
+Avail loss from Read time: 0.003
+Avail loss from Branch time: 0.013
+Avail loss from FPU time: 0.000
+Avail loss from Except time: 0.000
+Avail loss from MEMBAR time: 0.000
+Avail loss from BUSY TIME: 0.000
+Avail loss from Read miss time: 0.000
+Avail loss from Write miss time: 0.000
+Avail loss from RMW miss time: 0.000
+Avail loss from Read L1 time: 0.000
+Avail loss from Read L2 time: 0.000
+Avail loss from Read localmem time: 0.000
+Avail loss from Read remotemem time: 0.000
+Avail loss from Write L1 time: 0.000
+Avail loss from Write L2 time: 0.000
+Avail loss from Write localmem time: 0.000
+Avail loss from Write remotemem time: 0.000
+Avail loss from RMW L1 time: 0.000
+Avail loss from RMW L2 time: 0.000
+Avail loss from RMW localmem time: 0.000
+Avail loss from RMW remotemem time: 0.000
+Avail loss from RMW Late PF time: 0.000
+Avail loss from Write Late PF time: 0.000
+Avail loss from Read Late PF time: 0.000
+
+Efficiency loss from OK: 0.000
+Efficiency loss from Branch in cycle: 0.116
+Efficiency loss from Unpredicted branch: 0.159
+Efficiency loss from Shadow mappers full: 0.026
+Efficiency loss from Rename registers full: 0.000
+Efficiency loss from Memory queue full: 0.000
+Efficiency loss from Issue queue full: 0.000
+
+Utility losses from misspecs: 0.218 excepts: 0.132
+
+
+

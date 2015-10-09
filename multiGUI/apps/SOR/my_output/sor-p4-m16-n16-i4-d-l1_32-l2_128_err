@@ -1,0 +1,846 @@
+RSIM command line: rsim -f sor -S sor-p4-m16-n16-i4-d-l1_32-l2_128 -D ../my_output/ -0 /dev/null -z ../configs/l1_32-l2_128 -W -- -p4 -m16 -n16 -i4 -d 
+RSIM:	Active list: 64
+	Speculations: 8
+	Issue rate: 4
+	Max memory queue size: 32
+
+
+Startup command line: sor.out -p4 -m16 -n16 -i4 -d 
+
+Startup passed!!
+red row  0: -2147483392
+red row  1: -2147483264
+red row  2: -2147483136
+red row  3: -2147483008
+red row  4: -2147482880
+red row  5: -2147482752
+red row  6: -2147482624
+red row  7: -2147482496
+red row  8: -2147482368
+red row  9: -2147482240
+red row 10: -2147482112
+red row 11: -2147481984
+red row 12: -2147481856
+red row 13: -2147481728
+red row 14: -2147481600
+red row 15: -2147481472
+red row 16: -2147481344
+red row 17: -2147481216
+black row  0: -2147481088
+black row  1: -2147480960
+black row  2: -2147480832
+black row  3: -2147480704
+black row  4: -2147480576
+black row  5: -2147480448
+black row  6: -2147480320
+black row  7: -2147480192
+black row  8: -2147480064
+black row  9: -2147479936
+black row 10: -2147479808
+black row 11: -2147479680
+black row 12: -2147479552
+black row 13: -2147479424
+black row 14: -2147479296
+black row 15: -2147479168
+black row 16: -2147479040
+black row 17: -2147478912
+
+ 16 X 32 matrix - 4 iterations -- 4 processors
+
+Allocating Jobs 1 to 4 to processor 0
+    matrixred_0 -allocating -2147483264 to -2147482816 to processor 0
+  matrixblack_0 -allocating -2147480960 to -2147480512 to processor 0
+          arg_0 -allocating -2147478720 to -2147478708 to processor 0
+Allocating Jobs 5 to 8 to processor 1
+    matrixred_1 -allocating -2147482752 to -2147482304 to processor 1
+  matrixblack_1 -allocating -2147480448 to -2147480000 to processor 1
+          arg_1 -allocating -2147478656 to -2147478644 to processor 1
+Allocating Jobs 9 to 12 to processor 2
+    matrixred_2 -allocating -2147482240 to -2147481792 to processor 2
+  matrixblack_2 -allocating -2147479936 to -2147479488 to processor 2
+          arg_2 -allocating -2147478592 to -2147478580 to processor 2
+Allocating Jobs 13 to 16 to processor 3
+    matrixred_3 -allocating -2147481728 to -2147481280 to processor 3
+  matrixblack_3 -allocating -2147479424 to -2147478976 to processor 3
+          arg_3 -allocating -2147478528 to -2147478516 to processor 3
+row  0	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+row  1	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  2	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  3	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  4	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  5	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  6	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  7	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  8	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row  9	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 10	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 11	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 12	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 13	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 14	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 15	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 16	 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00 
+row 17	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+STAT Processor: 0 EndPhase: 0 Issued: 2592512 Graduated: 1636610
+STAT Execution time: 1062647 Start time: 0 Since last grad: 1
+STAT ALU time: Grads 217894 Ratio 0.3536
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 1 Ratio 0.0009
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 146566 Ratio 0.1395
+STAT Read time: Grads 111550 Ratio 0.1453
+STAT Branch time: Grads 122657 Ratio 0.1874
+STAT FPU time: Grads 3060 Ratio 0.0075
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 2 Ratio 0.0000
+STAT BUSY TIME: Grads 176052 Ratio 0.1657
+STAT Read miss time: Grads 3 Ratio 0.0002
+STAT Write miss time: Grads 1 Ratio 0.0000
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 111547 Ratio 0.1451
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 2 Ratio 0.0001
+STAT Read remotemem time: Grads 1 Ratio 0.0001
+STAT Write L1 time: Grads 146565 Ratio 0.1395
+STAT Write L2 time: Grads 1 Ratio 0.0000
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 0 Ratio nan
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 71 underflows: 70
+STAT Branch prediction rate: 0.8349
+STAT Return prediction rate: 0.5148
+STAT Reads Mean (ACT): 89.640 Stddev: 76.880
+STAT Writes Mean (ACT): 242.333 Stddev: 81.329
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 28.920 Stddev: 57.823
+STAT Writes Mean (EA): 90.333 Stddev: 69.974
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 28.920 Stddev: 57.823
+STAT Writes Mean (ISS): 90.333 Stddev: 69.974
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.893 Efficiency: 0.683 Utility: 0.631
+
+STAT Processor: 2 EndPhase: 0 Issued: 1547 Graduated: 1112
+STAT Execution time: 1860 Start time: 1060999 Since last grad: 1
+STAT ALU time: Grads 16 Ratio 570.4419
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 1 Ratio 0.7699
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 5 Ratio 0.0785
+STAT Read time: Grads 15 Ratio 0.1366
+STAT Branch time: Grads 3 Ratio 0.0022
+STAT FPU time: Grads 0 Ratio nan
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 1 Ratio 0.0005
+STAT Read miss time: Grads 3 Ratio 0.1280
+STAT Write miss time: Grads 1 Ratio 0.0758
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 12 Ratio 0.0086
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 2 Ratio 0.0484
+STAT Read remotemem time: Grads 1 Ratio 0.0796
+STAT Write L1 time: Grads 4 Ratio 0.0027
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 1 Ratio 0.0758
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.8718
+STAT Return prediction rate: 0.7500
+STAT Reads Mean (ACT): 63.000 Stddev: 56.890
+STAT Writes Mean (ACT): 188.333 Stddev: 76.350
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 10.329 Stddev: 34.839
+STAT Writes Mean (EA): 138.667 Stddev: 16.042
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 10.329 Stddev: 34.839
+STAT Writes Mean (ISS): 138.667 Stddev: 16.042
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.214 Efficiency: 0.974 Utility: 0.719
+
+STAT Processor: 1 EndPhase: 0 Issued: 2947 Graduated: 2671
+STAT Execution time: 2237 Start time: 1060630 Since last grad: 1
+STAT ALU time: Grads 16 Ratio 474.1426
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 1 Ratio 0.8498
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 5 Ratio 0.0688
+STAT Read time: Grads 14 Ratio 0.0671
+STAT Branch time: Grads 3 Ratio 0.0018
+STAT FPU time: Grads 0 Ratio nan
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 1 Ratio 0.0004
+STAT Read miss time: Grads 3 Ratio 0.0603
+STAT Write miss time: Grads 1 Ratio 0.0666
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 11 Ratio 0.0067
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 3 Ratio 0.0603
+STAT Read remotemem time: Grads 0 Ratio nan
+STAT Write L1 time: Grads 4 Ratio 0.0022
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 1 Ratio 0.0666
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.9669
+STAT Return prediction rate: 0.7500
+STAT Reads Mean (ACT): 46.112 Stddev: 16.747
+STAT Writes Mean (ACT): 88.000 Stddev: 103.238
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 2.536 Stddev: 12.188
+STAT Writes Mean (EA): 79.000 Stddev: 97.581
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 2.536 Stddev: 12.188
+STAT Writes Mean (ISS): 79.000 Stddev: 97.581
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.334 Efficiency: 0.985 Utility: 0.906
+
+STAT Processor: 3 EndPhase: 0 Issued: 1492 Graduated: 1216
+STAT Execution time: 1608 Start time: 1061356 Since last grad: 1
+STAT ALU time: Grads 16 Ratio 660.0641
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 1 Ratio 0.6592
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 5 Ratio 0.0896
+STAT Read time: Grads 14 Ratio 0.2313
+STAT Branch time: Grads 3 Ratio 0.0025
+STAT FPU time: Grads 0 Ratio nan
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 1 Ratio 0.0006
+STAT Read miss time: Grads 3 Ratio 0.2220
+STAT Write miss time: Grads 1 Ratio 0.0864
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 11 Ratio 0.0093
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 1 Ratio 0.0280
+STAT Read remotemem time: Grads 2 Ratio 0.1940
+STAT Write L1 time: Grads 4 Ratio 0.0031
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 1 Ratio 0.0864
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.9286
+STAT Return prediction rate: 0.7500
+STAT Reads Mean (ACT): 61.171 Stddev: 57.953
+STAT Writes Mean (ACT): 148.000 Stddev: 4.243
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 7.085 Stddev: 29.008
+STAT Writes Mean (EA): 139.000 Stddev: 1.414
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 7.085 Stddev: 29.008
+STAT Writes Mean (ISS): 139.000 Stddev: 1.414
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.239 Efficiency: 0.971 Utility: 0.815
+
+STAT Processor: 0 EndPhase: 1 Issued: 23054 Graduated: 19366
+STAT Execution time: 30285 Start time: 1062655 Since last grad: 1
+STAT ALU time: Grads 170 Ratio 0.0060
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 8 Ratio 0.3571
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 552 Ratio 0.2165
+STAT Read time: Grads 3860 Ratio 0.2135
+STAT Branch time: Grads 576 Ratio 0.0201
+STAT FPU time: Grads 2036 Ratio 0.1763
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 317 Ratio 0.0105
+STAT Read miss time: Grads 33 Ratio 0.0865
+STAT Write miss time: Grads 520 Ratio 0.2155
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 3827 Ratio 0.1270
+STAT Read L2 time: Grads 6 Ratio 0.0020
+STAT Read localmem time: Grads 14 Ratio 0.0204
+STAT Read remotemem time: Grads 13 Ratio 0.0641
+STAT Write L1 time: Grads 32 Ratio 0.0011
+STAT Write L2 time: Grads 504 Ratio 0.1668
+STAT Write localmem time: Grads 6 Ratio 0.0088
+STAT Write remotemem time: Grads 10 Ratio 0.0400
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.9203
+STAT Return prediction rate: 0.7500
+STAT Reads Mean (ACT): 90.988 Stddev: 53.969
+STAT Writes Mean (ACT): 106.131 Stddev: 63.590
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 4.019 Stddev: 18.518
+STAT Writes Mean (EA): 21.728 Stddev: 24.515
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 2.405 Stddev: 14.129
+STAT Writes Mean (ISS): 16.045 Stddev: 25.305
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.193 Efficiency: 0.985 Utility: 0.840
+
+STAT Processor: 1 EndPhase: 1 Issued: 21382 Graduated: 18681
+STAT Execution time: 30281 Start time: 1062889 Since last grad: 1
+STAT ALU time: Grads 165 Ratio 0.0066
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 8 Ratio 0.2213
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 552 Ratio 0.2939
+STAT Read time: Grads 3847 Ratio 0.2714
+STAT Branch time: Grads 576 Ratio 0.0198
+STAT FPU time: Grads 2036 Ratio 0.1762
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 322 Ratio 0.0106
+STAT Read miss time: Grads 42 Ratio 0.1453
+STAT Write miss time: Grads 520 Ratio 0.2929
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 3805 Ratio 0.1261
+STAT Read L2 time: Grads 6 Ratio 0.0020
+STAT Read localmem time: Grads 9 Ratio 0.0127
+STAT Read remotemem time: Grads 27 Ratio 0.1306
+STAT Write L1 time: Grads 32 Ratio 0.0011
+STAT Write L2 time: Grads 485 Ratio 0.1603
+STAT Write localmem time: Grads 6 Ratio 0.0088
+STAT Write remotemem time: Grads 29 Ratio 0.1238
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.9449
+STAT Return prediction rate: 0.8333
+STAT Reads Mean (ACT): 102.227 Stddev: 79.197
+STAT Writes Mean (ACT): 116.788 Stddev: 90.211
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 4.707 Stddev: 21.455
+STAT Writes Mean (EA): 24.610 Stddev: 30.299
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 2.223 Stddev: 12.910
+STAT Writes Mean (ISS): 18.843 Stddev: 31.069
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: nan
+STAT Availability: 0.179 Efficiency: 0.988 Utility: 0.874
+
+STAT Processor: 2 EndPhase: 1 Issued: 19905 Graduated: 16679
+STAT Execution time: 30313 Start time: 1062881 Since last grad: 1
+STAT ALU time: Grads 165 Ratio 0.0057
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 8 Ratio 0.2203
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 552 Ratio 0.2937
+STAT Read time: Grads 3855 Ratio 0.2739
+STAT Branch time: Grads 576 Ratio 0.0198
+STAT FPU time: Grads 2036 Ratio 0.1761
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 322 Ratio 0.0106
+STAT Read miss time: Grads 42 Ratio 0.1477
+STAT Write miss time: Grads 520 Ratio 0.2926
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 3813 Ratio 0.1262
+STAT Read L2 time: Grads 6 Ratio 0.0020
+STAT Read localmem time: Grads 9 Ratio 0.0129
+STAT Read remotemem time: Grads 27 Ratio 0.1327
+STAT Write L1 time: Grads 32 Ratio 0.0011
+STAT Write L2 time: Grads 485 Ratio 0.1600
+STAT Write localmem time: Grads 6 Ratio 0.0087
+STAT Write remotemem time: Grads 29 Ratio 0.1239
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.9266
+STAT Return prediction rate: 0.8333
+STAT Reads Mean (ACT): 106.102 Stddev: 89.096
+STAT Writes Mean (ACT): 118.832 Stddev: 100.058
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 5.183 Stddev: 23.293
+STAT Writes Mean (EA): 24.187 Stddev: 29.438
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 2.583 Stddev: 15.051
+STAT Writes Mean (ISS): 18.506 Stddev: 30.150
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: nan
+STAT Availability: 0.167 Efficiency: 0.984 Utility: 0.838
+
+STAT Processor: 3 EndPhase: 1 Issued: 27112 Graduated: 24411
+STAT Execution time: 30300 Start time: 1062986 Since last grad: 1
+STAT ALU time: Grads 165 Ratio 0.0066
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 8 Ratio 0.3141
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 552 Ratio 0.2546
+STAT Read time: Grads 3850 Ratio 0.2183
+STAT Branch time: Grads 576 Ratio 0.0198
+STAT FPU time: Grads 2034 Ratio 0.1759
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 0 Ratio nan
+STAT BUSY TIME: Grads 321 Ratio 0.0106
+STAT Read miss time: Grads 35 Ratio 0.0920
+STAT Write miss time: Grads 520 Ratio 0.2536
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 3815 Ratio 0.1263
+STAT Read L2 time: Grads 6 Ratio 0.0020
+STAT Read localmem time: Grads 15 Ratio 0.0222
+STAT Read remotemem time: Grads 14 Ratio 0.0678
+STAT Write L1 time: Grads 32 Ratio 0.0011
+STAT Write L2 time: Grads 495 Ratio 0.1634
+STAT Write localmem time: Grads 6 Ratio 0.0089
+STAT Write remotemem time: Grads 19 Ratio 0.0813
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 0 underflows: 0
+STAT Branch prediction rate: 0.9596
+STAT Return prediction rate: 0.8333
+STAT Reads Mean (ACT): 87.321 Stddev: 67.965
+STAT Writes Mean (ACT): 102.316 Stddev: 78.666
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 3.425 Stddev: 16.385
+STAT Writes Mean (EA): 20.439 Stddev: 21.948
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 1.803 Stddev: 10.089
+STAT Writes Mean (ISS): 14.684 Stddev: 22.518
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: nan
+STAT Availability: 0.226 Efficiency: 0.990 Utility: 0.900
+
+row  0	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+row  1	 1.00  0.85  0.76  0.66  0.65  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.62  0.69  0.73  0.87  1.00 
+row  2	 1.00  0.76  0.52  0.43  0.33  0.34  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.31  0.37  0.39  0.56  0.73  1.00 
+row  3	 1.00  0.66  0.43  0.23  0.19  0.13  0.15  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.16  0.15  0.27  0.39  0.69  1.00 
+row  4	 1.00  0.65  0.33  0.19  0.07  0.06  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  row  0	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+row  1	 1.00  0.85  0.76  0.66  0.65  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.62  0.69  0.73  0.87  1.00 
+row  2	 1.00  0.76  0.52  0.43  0.33  0.34  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.31  0.37  0.39  0.56  0.73  1.00 
+row  3	 1.00  0.66  0.43  0.23  0.19  0.13  0.15  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.16  0.15  0.27  0.39  0.69  1.00 
+row  4	 1.00  0.65  0.33  0.19  0.07  0.06  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  row  0	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+row  1	 1.00  0.85  0.76  0.66  0.65  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.62  0.69  0.73  0.87  1.00 
+row  2	 1.00  0.76  0.52  0.43  0.33  0.34  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.31  0.37  0.39  0.56  0.73  1.00 
+row  3	 1.00  0.66  0.43  0.23  0.19  0.13  0.15  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.16  0.15  0.27  0.39  0.69  1.00 
+row  4	 1.00  0.65  0.33  0.19  0.07  0.06  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  row  0	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+row  1	 1.00  0.85  0.76  0.66  0.65  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.62  0.69  0.73  0.87  1.00 
+row  2	 1.00  0.76  0.52  0.43  0.33  0.34  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.31  0.37  0.39  0.56  0.73  1.00 
+row  3	 1.00  0.66  0.43  0.23  0.19  0.13  0.15  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.16  0.15  0.27  0.39  0.69  1.00 
+row  4	 1.00  0.65  0.33  0.19  0.07  0.06  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.10  0.15  0.37  0.62  1.00 
+row  5	 1.00  0.61  0.34  0.13  0.06  0.01  0.02  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.01  0.03  0.04  0.16  0.31  0.63  1.00 
+row  6	 1.00  0.63  0.30  0.15  0.04  0.02 0.002 0.003 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.005  0.01  0.05  0.12  0.33  0.61  1.00 
+row  7	 1.00  0.61  0.33  0.12  0.05  0.00 0.003 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.001 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row  8	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000 0.000 0.002  0.00  0.05  0.12  0.33  0.61  1.00 
+row  9	 1.00  0.61  0.33  0.12  0.05  0.00 0.002 0.000 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.04  0.10  0.15  0.37  0.62  1.00 
+row  5	 1.00  0.61  0.34  0.13  0.06  0.01  0.02  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.01  0.03  0.04  0.16  0.31  0.63  1.00 
+row  6	 1.00  0.63  0.30  0.15  0.04  0.02 0.002 0.003 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.005  0.01  0.05  0.12  0.33  0.61  1.00 
+row  7	 1.00  0.61  0.33  0.12  0.05  0.00 0.003 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.001 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row  8	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000 0.000 0.002  0.00  0.05  0.12  0.33  0.61  1.00 
+row  9	 1.00  0.61  0.33  0.12  0.05  0.00 0.002 0.000 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.04  0.10  0.15  0.37  0.62  1.00 
+row  5	 1.00  0.61  0.34  0.13  0.06  0.01  0.02  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.01  0.03  0.04  0.16  0.31  0.63  1.00 
+row  6	 1.00  0.63  0.30  0.15  0.04  0.02 0.002 0.003 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.005  0.01  0.05  0.12  0.33  0.61  1.00 
+row  7	 1.00  0.61  0.33  0.12  0.05  0.00 0.003 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.001 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row  8	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000 0.000 0.002  0.00  0.05  0.12  0.33  0.61  1.00 
+row  9	 1.00  0.61  0.33  0.12  0.05  0.00 0.002 0.000 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.04  0.10  0.15  0.37  0.62  1.00 
+row  5	 1.00  0.61  0.34  0.13  0.06  0.01  0.02  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.01  0.03  0.04  0.16  0.31  0.63  1.00 
+row  6	 1.00  0.63  0.30  0.15  0.04  0.02 0.002 0.003 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.005  0.01  0.05  0.12  0.33  0.61  1.00 
+row  7	 1.00  0.61  0.33  0.12  0.05  0.00 0.003 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.001 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row  8	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000 0.000 0.002  0.00  0.05  0.12  0.33  0.61  1.00 
+row  9	 1.00  0.61  0.33  0.12  0.05  0.00 0.002 0.000 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000  0.00 0.000 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row 10	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.003  0.00  0.05  0.12  0.33  0.61  1.00 
+row 11	 1.00  0.61  0.33  0.12  0.05  0.01 0.005 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.003 0.002  0.02  0.04  0.15  0.30  0.63  1.00 
+row 12	 1.00  0.63  0.31  0.16  0.04  0.03  0.01  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.02  0.01  0.06  0.13  0.34  0.61  1.00 
+row 13	 1.00  0.62  0.37  0.15  0.10  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.06  0.07  0.19  0.33  0.65  1.00 
+row 14	 1.00  0.69  0.39  0.27  0.15  0.16  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14 0.000  0.00 0.000  0.00 0.000 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row 10	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.003  0.00  0.05  0.12  0.33  0.61  1.00 
+row 11	 1.00  0.61  0.33  0.12  0.05  0.01 0.005 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.003 0.002  0.02  0.04  0.15  0.30  0.63  1.00 
+row 12	 1.00  0.63  0.31  0.16  0.04  0.03  0.01  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.02  0.01  0.06  0.13  0.34  0.61  1.00 
+row 13	 1.00  0.62  0.37  0.15  0.10  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.06  0.07  0.19  0.33  0.65  1.00 
+row 14	 1.00  0.69  0.39  0.27  0.15  0.16  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14 0.000  0.00 0.000  0.00 0.000 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row 10	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.003  0.00  0.05  0.12  0.33  0.61  1.00 
+row 11	 1.00  0.61  0.33  0.12  0.05  0.01 0.005 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.003 0.002  0.02  0.04  0.15  0.30  0.63  1.00 
+row 12	 1.00  0.63  0.31  0.16  0.04  0.03  0.01  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.02  0.01  0.06  0.13  0.34  0.61  1.00 
+row 13	 1.00  0.62  0.37  0.15  0.10  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.06  0.07  0.19  0.33  0.65  1.00 
+row 14	 1.00  0.69  0.39  0.27  0.15  0.16  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14 0.000  0.00 0.000  0.00 0.000 0.001  0.01  0.04  0.14  0.30  0.63  1.00 
+row 10	 1.00  0.63  0.30  0.14  0.04  0.01 0.001 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.003  0.00  0.05  0.12  0.33  0.61  1.00 
+row 11	 1.00  0.61  0.33  0.12  0.05  0.01 0.005 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.002 0.001 0.003 0.002  0.02  0.04  0.15  0.30  0.63  1.00 
+row 12	 1.00  0.63  0.31  0.16  0.04  0.03  0.01  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.01  0.00  0.02  0.01  0.06  0.13  0.34  0.61  1.00 
+row 13	 1.00  0.62  0.37  0.15  0.10  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.05  0.04  0.06  0.07  0.19  0.33  0.65  1.00 
+row 14	 1.00  0.69  0.39  0.27  0.15  0.16  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.15  0.13  0.19  0.23  0.43  0.66  1.00 
+row 15	 1.00  0.73  0.56  0.39  0.37  0.31  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.34  0.33  0.43  0.52  0.76  1.00 
+row 16	 1.00  0.87  0.73  0.69  0.62  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.65  0.66  0.76  0.85  1.00 
+row 17	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+ 0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.15  0.13  0.19  0.23  0.43  0.66  1.00 
+row 15	 1.00  0.73  0.56  0.39  0.37  0.31  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.34  0.33  0.43  0.52  0.76  1.00 
+row 16	 1.00  0.87  0.73  0.69  0.62  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.65  0.66  0.76  0.85  1.00 
+row 17	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+ 0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.15  0.13  0.19  0.23  0.43  0.66  1.00 
+row 15	 1.00  0.73  0.56  0.39  0.37  0.31  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.34  0.33  0.43  0.52  0.76  1.00 
+row 16	 1.00  0.87  0.73  0.69  0.62  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.65  0.66  0.76  0.85  1.00 
+row 17	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+ 0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.14  0.12  0.15  0.13  0.19  0.23  0.43  0.66  1.00 
+row 15	 1.00  0.73  0.56  0.39  0.37  0.31  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.33  0.30  0.34  0.33  0.43  0.52  0.76  1.00 
+row 16	 1.00  0.87  0.73  0.69  0.62  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.63  0.61  0.65  0.66  0.76  0.85  1.00 
+row 17	 1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00 
+Processor 3 exiting with code 218112
+Processor 2 exiting with code 218112
+Processor 1 exiting with code 218112
+Processor 0 exiting with code 218112
+Total elapsed time of simulation 43.000000
+Simulated time 3018718.500000
+STAT Processor: 0 EndPhase: 2 Issued: 4731528 Graduated: 2945633
+STAT Execution time: 1925771 Start time: 1092947 Since last grad: 0
+STAT ALU time: Grads 450340 Ratio 0.4384
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 0 Ratio nan
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 244874 Ratio 0.1283
+STAT Read time: Grads 154893 Ratio 0.1191
+STAT Branch time: Grads 143936 Ratio 0.1273
+STAT FPU time: Grads 3060 Ratio 0.0041
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 3 Ratio 0.0000
+STAT BUSY TIME: Grads 352011 Ratio 0.1828
+STAT Read miss time: Grads 54 Ratio 0.0040
+STAT Write miss time: Grads 0 Ratio nan
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 154839 Ratio 0.1151
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 1 Ratio 0.0000
+STAT Read remotemem time: Grads 53 Ratio 0.0040
+STAT Write L1 time: Grads 244874 Ratio 0.1283
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 0 Ratio nan
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 307 underflows: 308
+STAT Branch prediction rate: 0.8389
+STAT Return prediction rate: 0.5331
+STAT Reads Mean (ACT): 19.493 Stddev: 53.619
+STAT Writes Mean (ACT): nan Stddev: nan
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 7.226 Stddev: 29.184
+STAT Writes Mean (EA): nan Stddev: nan
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 7.226 Stddev: 29.184
+STAT Writes Mean (ISS): nan Stddev: nan
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.805 Efficiency: 0.763 Utility: 0.623
+
+STAT Processor: 1 EndPhase: 2 Issued: 4723004 Graduated: 2945633
+STAT Execution time: 1925540 Start time: 1093177 Since last grad: 1990
+STAT ALU time: Grads 451114 Ratio 0.4375
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 0 Ratio nan
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 244874 Ratio 0.1285
+STAT Read time: Grads 155474 Ratio 0.1195
+STAT Branch time: Grads 144853 Ratio 0.1266
+STAT FPU time: Grads 3060 Ratio 0.0041
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 4 Ratio 0.0000
+STAT BUSY TIME: Grads 351817 Ratio 0.1827
+STAT Read miss time: Grads 55 Ratio 0.0041
+STAT Write miss time: Grads 0 Ratio nan
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 155419 Ratio 0.1154
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 0 Ratio nan
+STAT Read remotemem time: Grads 55 Ratio 0.0041
+STAT Write L1 time: Grads 244874 Ratio 0.1285
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 0 Ratio nan
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 307 underflows: 308
+STAT Branch prediction rate: 0.8392
+STAT Return prediction rate: 0.5302
+STAT Reads Mean (ACT): 19.766 Stddev: 53.973
+STAT Writes Mean (ACT): nan Stddev: nan
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 7.448 Stddev: 29.801
+STAT Writes Mean (EA): nan Stddev: nan
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 7.448 Stddev: 29.801
+STAT Writes Mean (ISS): nan Stddev: nan
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.802 Efficiency: 0.765 Utility: 0.624
+
+STAT Processor: 2 EndPhase: 2 Issued: 4722940 Graduated: 2945633
+STAT Execution time: 1925516 Start time: 1093201 Since last grad: 2171
+STAT ALU time: Grads 451092 Ratio 0.4375
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 0 Ratio nan
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 244874 Ratio 0.1285
+STAT Read time: Grads 155473 Ratio 0.1194
+STAT Branch time: Grads 144839 Ratio 0.1266
+STAT FPU time: Grads 3060 Ratio 0.0041
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 4 Ratio 0.0000
+STAT BUSY TIME: Grads 351832 Ratio 0.1827
+STAT Read miss time: Grads 55 Ratio 0.0040
+STAT Write miss time: Grads 0 Ratio nan
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 155418 Ratio 0.1154
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 0 Ratio nan
+STAT Read remotemem time: Grads 55 Ratio 0.0040
+STAT Write L1 time: Grads 244874 Ratio 0.1285
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 0 Ratio nan
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 307 underflows: 308
+STAT Branch prediction rate: 0.8392
+STAT Return prediction rate: 0.5302
+STAT Reads Mean (ACT): 19.649 Stddev: 53.635
+STAT Writes Mean (ACT): nan Stddev: nan
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 7.291 Stddev: 29.216
+STAT Writes Mean (EA): nan Stddev: nan
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 7.291 Stddev: 29.216
+STAT Writes Mean (ISS): nan Stddev: nan
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.802 Efficiency: 0.765 Utility: 0.624
+
+STAT Processor: 3 EndPhase: 2 Issued: 4722988 Graduated: 2945633
+STAT Execution time: 1925424 Start time: 1093293 Since last grad: 2907
+STAT ALU time: Grads 451110 Ratio 0.4375
+STAT User 1 time: Grads 0 Ratio nan
+STAT User 2 time: Grads 0 Ratio nan
+STAT User 3 time: Grads 0 Ratio nan
+STAT User 4 time: Grads 0 Ratio nan
+STAT User 5 time: Grads 0 Ratio nan
+STAT User 6 time: Grads 0 Ratio nan
+STAT User 7 time: Grads 0 Ratio nan
+STAT User 8 time: Grads 0 Ratio nan
+STAT User 9 time: Grads 0 Ratio nan
+STAT Barrier time: Grads 0 Ratio nan
+STAT Spin time: Grads 0 Ratio nan
+STAT Acquire time: Grads 0 Ratio nan
+STAT Release time: Grads 0 Ratio nan
+STAT RMW time: Grads 0 Ratio nan
+STAT Write time: Grads 244874 Ratio 0.1285
+STAT Read time: Grads 155469 Ratio 0.1190
+STAT Branch time: Grads 144853 Ratio 0.1266
+STAT FPU time: Grads 3058 Ratio 0.0041
+STAT Except time: Grads 0 Ratio nan
+STAT MEMBAR time: Grads 4 Ratio 0.0000
+STAT BUSY TIME: Grads 351822 Ratio 0.1827
+STAT Read miss time: Grads 51 Ratio 0.0036
+STAT Write miss time: Grads 0 Ratio nan
+STAT RMW miss time: Grads 0 Ratio nan
+STAT Read L1 time: Grads 155418 Ratio 0.1154
+STAT Read L2 time: Grads 0 Ratio nan
+STAT Read localmem time: Grads 1 Ratio 0.0000
+STAT Read remotemem time: Grads 50 Ratio 0.0036
+STAT Write L1 time: Grads 244874 Ratio 0.1285
+STAT Write L2 time: Grads 0 Ratio nan
+STAT Write localmem time: Grads 0 Ratio nan
+STAT Write remotemem time: Grads 0 Ratio nan
+STAT RMW L1 time: Grads 0 Ratio nan
+STAT RMW L2 time: Grads 0 Ratio nan
+STAT RMW localmem time: Grads 0 Ratio nan
+STAT RMW remotemem time: Grads 0 Ratio nan
+STAT RMW Late PF time: Grads 0 Ratio nan
+STAT Write Late PF time: Grads 0 Ratio nan
+STAT Read Late PF time: Grads 0 Ratio nan
+STAT Window overflows: 307 underflows: 308
+STAT Branch prediction rate: 0.8392
+STAT Return prediction rate: 0.5302
+STAT Reads Mean (ACT): 17.764 Stddev: 46.793
+STAT Writes Mean (ACT): nan Stddev: nan
+STAT RMW Mean (ACT): nan Stddev: nan
+STAT Reads Mean (EA): 6.606 Stddev: 27.162
+STAT Writes Mean (EA): nan Stddev: nan
+STAT RMW Mean (EA): nan Stddev: nan
+STAT Reads Mean (ISS): 6.606 Stddev: 27.162
+STAT Writes Mean (ISS): nan Stddev: nan
+STAT RMW Mean (ISS): nan Stddev: nan
+STAT ExceptionWait Mean: 0.000 Stddev: 0.000
+STAT Availability: 0.802 Efficiency: 0.765 Utility: 0.624
+
+About to exit after time 3018718

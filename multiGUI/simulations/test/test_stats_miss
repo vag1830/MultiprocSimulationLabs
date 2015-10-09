@@ -1,0 +1,30 @@
+Phase 0 STATS
+FILE ../multiGUI/simulations/test/test
+Misses: 0
+Average L1 MSHR = 0.117875
+Average L2 MSHR = 0.166
+Average network read latency = 124.850 (over 60 )
+Phase 1 STATS
+FILE ../multiGUI/simulations/test/test
+Misses: 131272
+Miss latency: 900.86
+Overlapped miss latency: 837.57
+Fraction unoverlapped: 7.02\%
+Refs: 22768799
+L1refs: 22768799
+L2refs: 131272
+L1hits: 99.40 (22631104)
+L1misses: 0.58 (131272)
+L2hits: 8.03 (10536)
+L2misses: 91.97 (120736)
+Local mems: 3.11 (3760)
+Remote mems: 96.89 (116976)
+Average L1 MSHR = 0.117875
+Average L2 MSHR = 0.166
+Average network read latency = 124.850 (over 60 )
+Phase 2 STATS
+FILE ../multiGUI/simulations/test/test
+Misses: 0
+Average L1 MSHR = 0.117875
+Average L2 MSHR = 0.166
+Average network read latency = 124.850 (over 60 )

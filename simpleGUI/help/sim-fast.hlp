@@ -1,0 +1,3 @@
+sim-fast: This simulator implements a very fast functional simulator.  
+This functional simulator implementation is much more difficult to digest than the simpler, cleaner sim-safe functional simulator.  By default, this simulator performs no instruction error checking, as a result, any instruction errors will manifest as simulator execution errors, possibly causing sim-fast to execute incorrectly or dump core.  
+Such is the price we pay for speed!!!!

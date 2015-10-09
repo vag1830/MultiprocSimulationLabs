@@ -1,0 +1,9 @@
+/* QS Configuration file */
+name	type	value	default-value	desc			group
+#-p  	#int	#1	#1		#Number of processors	#null
+#-s 	#int	#4096	#4096		#Size of array		#null
+#-b 	#int	#64	#64		#Bubble threshold	#null
+#-B 	#bool	#true	#true		#Bubble			#null
+#-d 	#bool	#false	#false		#Display output		#null
+#-v	#bool	#true	#true		#Verify results		#null
+#-H 	#bool	#false	#false		#Help			#null 

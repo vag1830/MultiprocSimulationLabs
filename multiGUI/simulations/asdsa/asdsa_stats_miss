@@ -1,0 +1,15 @@
+Phase 0 STATS
+FILE ../multiGUI/simulations/asdsa/asdsa
+Average L1 MSHR = 1
+Average L2 MSHR = 1.000
+Average network read latency = 31.000 (over 1 )
+Phase 1 STATS
+FILE ../multiGUI/simulations/asdsa/asdsa
+Average L1 MSHR = 1
+Average L2 MSHR = 1.000
+Average network read latency = 31.000 (over 1 )
+Phase 2 STATS
+FILE ../multiGUI/simulations/asdsa/asdsa
+Average L1 MSHR = 1
+Average L2 MSHR = 1.000
+Average network read latency = 31.000 (over 1 )
